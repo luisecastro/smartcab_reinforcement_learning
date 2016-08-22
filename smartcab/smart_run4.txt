@@ -1,0 +1,1866 @@
+Last login: Sun Aug 21 17:49:46 on ttys000
+Luiss-MacBook-Air:smartcab luiscastro$ python agent_v2.py
+Simulator.run(): Trial 0
+Environment.reset(): Trial set up with start = (8, 2), destination = (3, 1), deadline = 30
+RoutePlanner.route_to(): destination = (3, 1)
+0
+state-action-reward: red,None,None,None,right,right,2.0,1
+state-action-reward: green,None,None,None,forward,None,0.0,1
+state-action-reward: green,None,None,None,forward,forward,2.0,1
+state-action-reward: green,None,None,None,forward,left,-0.5,1
+state-action-reward: green,None,None,None,right,forward,-0.5,1
+state-action-reward: red,None,None,None,right,forward,-1.0,1
+state-action-reward: red,None,None,None,right,left,-1.0,1
+state-action-reward: red,None,None,None,right,None,0.0,1
+state-action-reward: red,None,None,None,right,None,0.0,2
+state-action-reward: red,None,None,None,right,forward,-1.0,2
+state-action-reward: green,None,None,None,right,left,-0.5,1
+state-action-reward: green,None,None,None,right,right,2.0,1
+state-action-reward: green,None,None,None,right,None,0.0,1
+state-action-reward: green,None,None,None,right,right,2.0,2
+state-action-reward: green,None,None,None,forward,right,-0.5,1
+state-action-reward: red,None,None,None,left,left,-1.0,1
+state-action-reward: red,None,None,None,left,right,-0.5,1
+state-action-reward: red,None,None,None,right,right,2.0,2
+state-action-reward: green,None,None,None,right,right,2.0,3
+state-action-reward: green,None,None,None,forward,forward,2.0,2
+state-action-reward: red,None,None,None,forward,forward,-1.0,1
+state-action-reward: red,None,None,None,forward,right,-0.5,1
+state-action-reward: red,None,None,None,left,forward,-1.0,1
+state-action-reward: red,None,None,None,left,None,0.0,1
+state-action-reward: red,None,None,None,left,None,0.0,2
+state-action-reward: green,None,None,None,left,right,-0.5,1
+state-action-reward: green,None,None,None,right,right,2.0,4
+state-action-reward: green,None,None,None,right,right,2.0,5
+state-action-reward: red,None,None,None,forward,left,-1.0,1
+state-action-reward: red,None,None,None,forward,None,0.0,1
+state-action-reward: red,None,None,None,forward,None,0.0,2
+Environment.step(): Primary agent ran out of time! Trial aborted.
+Simulator.run(): Trial 1
+Environment.reset(): Trial set up with start = (2, 4), destination = (3, 1), deadline = 20
+RoutePlanner.route_to(): destination = (3, 1)
+7.5
+state-action-reward: green,None,None,None,left,forward,-0.5,1
+state-action-reward: green,None,None,None,left,None,0.0,1
+state-action-reward: green,None,None,None,left,left,2.0,1
+state-action-reward: green,None,None,None,left,left,2.0,2
+state-action-reward: green,None,None,None,forward,forward,2.0,3
+state-action-reward: green,None,None,None,forward,forward,2.0,4
+state-action-reward: red,None,None,None,forward,None,0.0,3
+state-action-reward: red,None,None,None,forward,None,0.0,4
+state-action-reward: red,None,None,None,forward,None,0.0,5
+state-action-reward: red,None,None,None,forward,None,0.0,6
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,5
+Simulator.run(): Trial 2
+Environment.reset(): Trial set up with start = (6, 1), destination = (7, 5), deadline = 25
+RoutePlanner.route_to(): destination = (7, 5)
+27.0
+state-action-reward: red,None,None,None,right,right,2.0,3
+state-action-reward: red,None,forward,None,right,right,2.0,1
+state-action-reward: red,None,None,None,forward,None,0.0,7
+state-action-reward: red,None,None,None,forward,None,0.0,8
+state-action-reward: red,None,None,None,forward,None,0.0,9
+state-action-reward: green,None,None,None,forward,forward,2.0,6
+state-action-reward: green,None,left,None,forward,right,-0.5,1
+state-action-reward: green,left,None,None,right,forward,-0.5,1
+state-action-reward: red,None,None,None,right,right,2.0,4
+state-action-reward: red,None,None,None,right,right,2.0,5
+state-action-reward: red,None,None,None,forward,None,0.0,10
+state-action-reward: red,None,None,None,forward,None,0.0,11
+state-action-reward: green,None,None,None,forward,forward,2.0,7
+state-action-reward: green,None,None,None,right,right,2.0,6
+state-action-reward: green,None,None,None,forward,forward,2.0,8
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,9
+Simulator.run(): Trial 3
+Environment.reset(): Trial set up with start = (2, 1), destination = (8, 6), deadline = 55
+RoutePlanner.route_to(): destination = (8, 6)
+54.0
+state-action-reward: green,None,None,None,right,right,2.0,7
+state-action-reward: green,None,None,None,forward,forward,2.0,10
+state-action-reward: red,None,None,None,forward,None,0.0,12
+state-action-reward: green,None,None,None,forward,forward,2.0,11
+state-action-reward: red,None,None,None,forward,None,0.0,13
+state-action-reward: green,None,None,None,forward,forward,2.0,12
+state-action-reward: green,None,None,None,forward,forward,2.0,13
+state-action-reward: green,None,None,None,forward,forward,2.0,14
+state-action-reward: red,None,None,None,right,right,2.0,6
+state-action-reward: red,None,None,None,forward,None,0.0,14
+state-action-reward: red,None,None,None,forward,None,0.0,15
+state-action-reward: red,None,None,None,forward,None,0.0,16
+state-action-reward: green,None,None,None,forward,forward,2.0,15
+state-action-reward: green,None,None,left,forward,None,0.0,1
+state-action-reward: green,None,None,left,forward,forward,2.0,1
+state-action-reward: red,None,None,None,forward,None,0.0,17
+state-action-reward: green,None,None,None,forward,forward,2.0,16
+state-action-reward: red,None,None,None,forward,None,0.0,18
+state-action-reward: red,None,None,None,forward,None,0.0,19
+state-action-reward: red,None,None,None,forward,None,0.0,20
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,17
+Simulator.run(): Trial 4
+Environment.reset(): Trial set up with start = (5, 2), destination = (3, 5), deadline = 25
+RoutePlanner.route_to(): destination = (3, 5)
+86.0
+state-action-reward: red,None,None,None,right,right,2.0,7
+state-action-reward: green,None,None,None,forward,forward,2.0,18
+state-action-reward: green,None,None,None,left,left,2.0,3
+state-action-reward: green,None,None,None,forward,forward,2.0,19
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,20
+Simulator.run(): Trial 5
+Environment.reset(): Trial set up with start = (6, 6), destination = (3, 5), deadline = 20
+RoutePlanner.route_to(): destination = (3, 5)
+106.0
+state-action-reward: red,None,forward,None,right,forward,-1.0,1
+state-action-reward: red,None,forward,None,right,None,0.0,1
+state-action-reward: red,None,forward,None,right,left,-1.0,1
+state-action-reward: green,None,None,None,right,right,2.0,8
+state-action-reward: green,None,None,None,forward,forward,2.0,21
+state-action-reward: red,None,forward,None,forward,right,-0.5,1
+state-action-reward: red,None,None,None,left,None,0.0,3
+state-action-reward: red,None,None,None,left,None,0.0,4
+state-action-reward: red,None,None,None,left,None,0.0,5
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,4
+Simulator.run(): Trial 6
+Environment.reset(): Trial set up with start = (5, 3), destination = (3, 6), deadline = 25
+RoutePlanner.route_to(): destination = (3, 6)
+119.5
+state-action-reward: green,None,None,None,forward,forward,2.0,22
+state-action-reward: red,None,None,None,forward,None,0.0,21
+state-action-reward: red,None,None,None,forward,None,0.0,22
+state-action-reward: red,None,None,None,forward,None,0.0,23
+state-action-reward: green,None,None,None,forward,forward,2.0,23
+state-action-reward: red,None,None,None,left,None,0.0,6
+state-action-reward: red,None,None,None,left,None,0.0,7
+state-action-reward: red,None,None,None,left,None,0.0,8
+state-action-reward: red,None,None,None,left,None,0.0,9
+state-action-reward: red,None,None,None,left,None,0.0,10
+state-action-reward: green,None,None,None,left,left,2.0,5
+state-action-reward: green,None,None,None,forward,forward,2.0,24
+state-action-reward: red,None,None,None,forward,None,0.0,24
+state-action-reward: red,None,None,None,forward,None,0.0,25
+state-action-reward: red,left,None,None,forward,forward,-1.0,1
+state-action-reward: green,left,None,None,forward,left,-0.5,1
+state-action-reward: green,None,None,None,right,right,2.0,9
+Environment.act(): Primary agent has reached destination!
+state-action-reward: red,None,None,None,right,right,2.0,8
+Simulator.run(): Trial 7
+Environment.reset(): Trial set up with start = (7, 1), destination = (4, 2), deadline = 20
+RoutePlanner.route_to(): destination = (4, 2)
+140.0
+state-action-reward: green,None,None,None,left,left,2.0,6
+state-action-reward: red,None,None,None,forward,None,0.0,26
+state-action-reward: red,None,None,None,forward,None,0.0,27
+state-action-reward: red,None,None,None,forward,None,0.0,28
+state-action-reward: green,None,None,None,forward,forward,2.0,25
+state-action-reward: green,None,None,None,forward,forward,2.0,26
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,7
+Simulator.run(): Trial 8
+Environment.reset(): Trial set up with start = (8, 5), destination = (3, 6), deadline = 30
+RoutePlanner.route_to(): destination = (3, 6)
+158.0
+state-action-reward: green,None,None,None,forward,forward,2.0,27
+state-action-reward: green,None,None,None,forward,forward,2.0,28
+state-action-reward: red,None,None,None,forward,None,0.0,29
+state-action-reward: green,None,None,None,forward,forward,2.0,29
+state-action-reward: green,None,None,None,forward,forward,2.0,30
+state-action-reward: red,None,None,None,forward,None,0.0,30
+state-action-reward: green,None,None,None,forward,forward,2.0,31
+state-action-reward: red,None,None,None,left,None,0.0,11
+state-action-reward: red,None,None,None,left,None,0.0,12
+state-action-reward: red,None,None,None,left,None,0.0,13
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,8
+Simulator.run(): Trial 9
+Environment.reset(): Trial set up with start = (1, 4), destination = (6, 4), deadline = 25
+RoutePlanner.route_to(): destination = (6, 4)
+180.0
+state-action-reward: green,None,None,None,right,right,2.0,10
+state-action-reward: red,None,None,None,right,right,2.0,9
+state-action-reward: green,None,None,None,forward,forward,2.0,32
+state-action-reward: green,left,None,None,forward,right,-0.5,1
+state-action-reward: green,None,None,None,left,left,2.0,9
+state-action-reward: green,None,None,None,forward,forward,2.0,33
+state-action-reward: red,None,None,None,forward,None,0.0,31
+state-action-reward: red,None,None,None,forward,None,0.0,32
+state-action-reward: red,None,None,None,forward,None,0.0,33
+state-action-reward: red,None,None,None,forward,None,0.0,34
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,34
+Simulator.run(): Trial 10
+Environment.reset(): Trial set up with start = (7, 3), destination = (1, 1), deadline = 40
+RoutePlanner.route_to(): destination = (1, 1)
+201.5
+state-action-reward: green,None,None,None,right,right,2.0,11
+state-action-reward: red,None,None,None,right,right,2.0,10
+state-action-reward: red,None,None,None,forward,None,0.0,35
+state-action-reward: red,None,None,None,forward,None,0.0,36
+state-action-reward: red,None,None,None,forward,None,0.0,37
+state-action-reward: green,None,None,None,forward,forward,2.0,35
+state-action-reward: red,None,None,None,forward,None,0.0,38
+state-action-reward: red,None,None,None,forward,None,0.0,39
+state-action-reward: red,None,None,None,forward,None,0.0,40
+state-action-reward: red,None,None,None,forward,None,0.0,41
+state-action-reward: green,None,None,None,forward,forward,2.0,36
+state-action-reward: red,None,None,None,forward,None,0.0,42
+state-action-reward: green,None,None,None,forward,forward,2.0,37
+state-action-reward: red,None,None,None,forward,None,0.0,43
+state-action-reward: red,None,None,None,forward,None,0.0,44
+state-action-reward: green,None,None,None,forward,forward,2.0,38
+state-action-reward: red,None,None,None,forward,None,0.0,45
+state-action-reward: red,None,None,None,forward,None,0.0,46
+state-action-reward: red,None,None,None,forward,None,0.0,47
+state-action-reward: red,None,None,None,forward,None,0.0,48
+state-action-reward: green,None,None,None,forward,forward,2.0,39
+state-action-reward: red,None,None,None,right,right,2.0,11
+state-action-reward: green,None,None,None,forward,forward,2.0,40
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,41
+Simulator.run(): Trial 11
+Environment.reset(): Trial set up with start = (7, 6), destination = (6, 3), deadline = 20
+RoutePlanner.route_to(): destination = (6, 3)
+231.5
+state-action-reward: red,None,None,None,right,right,2.0,12
+state-action-reward: red,None,None,None,right,right,2.0,13
+state-action-reward: red,None,None,None,left,None,0.0,14
+state-action-reward: red,None,None,right,left,left,-1.0,1
+state-action-reward: green,None,None,None,left,left,2.0,10
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,42
+Simulator.run(): Trial 12
+Environment.reset(): Trial set up with start = (3, 5), destination = (6, 4), deadline = 20
+RoutePlanner.route_to(): destination = (6, 4)
+248.5
+state-action-reward: red,None,None,None,right,right,2.0,14
+state-action-reward: green,None,None,None,right,right,2.0,12
+state-action-reward: green,None,None,None,forward,forward,2.0,43
+state-action-reward: red,None,None,None,forward,None,0.0,49
+state-action-reward: red,None,None,None,forward,None,0.0,50
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,44
+Simulator.run(): Trial 13
+Environment.reset(): Trial set up with start = (8, 2), destination = (2, 6), deadline = 50
+RoutePlanner.route_to(): destination = (2, 6)
+266.5
+state-action-reward: green,None,None,None,forward,forward,2.0,45
+state-action-reward: green,None,None,None,forward,forward,2.0,46
+state-action-reward: green,None,None,None,forward,forward,2.0,47
+state-action-reward: red,None,None,None,forward,None,0.0,51
+state-action-reward: red,None,None,None,forward,None,0.0,52
+state-action-reward: green,None,None,None,forward,forward,2.0,48
+state-action-reward: green,None,None,None,forward,forward,2.0,49
+state-action-reward: green,None,None,None,forward,forward,2.0,50
+state-action-reward: red,None,None,None,left,None,0.0,15
+state-action-reward: green,None,None,None,left,left,2.0,11
+state-action-reward: red,None,None,None,forward,None,0.0,53
+state-action-reward: red,None,None,None,forward,None,0.0,54
+state-action-reward: red,None,None,None,forward,None,0.0,55
+state-action-reward: red,None,None,None,forward,None,0.0,56
+state-action-reward: red,None,None,None,forward,None,0.0,57
+state-action-reward: green,None,None,None,forward,forward,2.0,51
+state-action-reward: red,None,None,None,forward,None,0.0,58
+state-action-reward: red,None,None,None,forward,None,0.0,59
+state-action-reward: red,None,None,None,forward,None,0.0,60
+state-action-reward: red,None,None,None,forward,None,0.0,61
+state-action-reward: green,None,None,None,forward,forward,2.0,52
+state-action-reward: red,None,None,None,forward,None,0.0,62
+state-action-reward: red,None,None,None,forward,None,0.0,63
+state-action-reward: red,None,None,None,forward,None,0.0,64
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,53
+Simulator.run(): Trial 14
+Environment.reset(): Trial set up with start = (3, 1), destination = (8, 4), deadline = 40
+RoutePlanner.route_to(): destination = (8, 4)
+296.5
+state-action-reward: red,None,None,None,forward,None,0.0,65
+state-action-reward: red,None,None,None,forward,None,0.0,66
+state-action-reward: red,None,None,None,forward,None,0.0,67
+state-action-reward: red,None,None,None,forward,None,0.0,68
+state-action-reward: red,None,None,None,forward,None,0.0,69
+state-action-reward: green,None,None,None,forward,forward,2.0,54
+state-action-reward: red,None,None,right,forward,forward,-1.0,1
+state-action-reward: red,None,None,None,forward,None,0.0,70
+state-action-reward: red,None,None,None,forward,None,0.0,71
+state-action-reward: green,None,None,None,forward,forward,2.0,55
+state-action-reward: green,None,None,None,forward,forward,2.0,56
+state-action-reward: red,None,None,None,forward,None,0.0,72
+state-action-reward: green,None,None,None,forward,forward,2.0,57
+state-action-reward: green,None,None,None,forward,forward,2.0,58
+state-action-reward: red,None,None,None,right,right,2.0,15
+state-action-reward: green,None,right,None,forward,left,-1.0,1
+state-action-reward: red,None,None,None,forward,None,0.0,73
+state-action-reward: red,None,None,None,forward,None,0.0,74
+state-action-reward: red,None,None,None,forward,None,0.0,75
+state-action-reward: red,None,None,None,forward,None,0.0,76
+state-action-reward: green,None,None,None,forward,forward,2.0,59
+state-action-reward: red,None,None,None,forward,None,0.0,77
+state-action-reward: red,None,None,None,forward,None,0.0,78
+state-action-reward: red,None,None,None,forward,None,0.0,79
+state-action-reward: red,None,None,None,forward,None,0.0,80
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,60
+Simulator.run(): Trial 15
+Environment.reset(): Trial set up with start = (1, 5), destination = (3, 3), deadline = 20
+RoutePlanner.route_to(): destination = (3, 3)
+320.5
+state-action-reward: green,None,None,None,left,left,2.0,12
+state-action-reward: red,None,None,None,forward,None,0.0,81
+state-action-reward: red,None,None,None,forward,None,0.0,82
+state-action-reward: green,None,None,None,forward,forward,2.0,61
+state-action-reward: red,None,None,None,left,None,0.0,16
+state-action-reward: green,None,None,None,left,left,2.0,13
+state-action-reward: red,None,None,None,forward,None,0.0,83
+state-action-reward: red,None,None,None,forward,None,0.0,84
+state-action-reward: red,None,None,None,forward,None,0.0,85
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,62
+Simulator.run(): Trial 16
+Environment.reset(): Trial set up with start = (8, 2), destination = (2, 5), deadline = 45
+RoutePlanner.route_to(): destination = (2, 5)
+338.5
+state-action-reward: red,None,None,None,left,None,0.0,17
+state-action-reward: red,None,None,None,left,None,0.0,18
+state-action-reward: red,None,None,None,left,None,0.0,19
+state-action-reward: red,None,None,None,left,None,0.0,20
+state-action-reward: green,None,None,None,left,left,2.0,14
+state-action-reward: red,None,None,None,forward,None,0.0,86
+state-action-reward: red,None,None,None,forward,None,0.0,87
+state-action-reward: red,None,None,None,forward,None,0.0,88
+state-action-reward: red,None,None,None,forward,None,0.0,89
+state-action-reward: red,None,None,None,forward,None,0.0,90
+state-action-reward: green,None,None,None,forward,forward,2.0,63
+state-action-reward: green,None,None,None,forward,forward,2.0,64
+state-action-reward: red,None,None,None,forward,None,0.0,91
+state-action-reward: red,None,None,None,forward,None,0.0,92
+state-action-reward: red,None,None,None,forward,None,0.0,93
+state-action-reward: green,None,None,None,forward,forward,2.0,65
+state-action-reward: red,None,None,None,forward,None,0.0,94
+state-action-reward: red,None,None,None,forward,None,0.0,95
+state-action-reward: red,None,None,None,forward,None,0.0,96
+state-action-reward: red,None,None,None,forward,None,0.0,97
+state-action-reward: green,None,None,None,forward,forward,2.0,66
+state-action-reward: red,None,None,None,forward,None,0.0,98
+state-action-reward: red,None,None,None,forward,None,0.0,99
+state-action-reward: red,None,None,None,forward,None,0.0,100
+state-action-reward: red,None,None,None,forward,None,0.0,101
+state-action-reward: green,None,None,None,forward,forward,2.0,67
+state-action-reward: green,None,None,None,left,left,2.0,15
+state-action-reward: green,None,None,None,forward,forward,2.0,68
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,69
+Simulator.run(): Trial 17
+Environment.reset(): Trial set up with start = (3, 4), destination = (7, 6), deadline = 30
+RoutePlanner.route_to(): destination = (7, 6)
+366.5
+state-action-reward: red,None,None,None,right,right,2.0,16
+state-action-reward: red,None,None,None,forward,None,0.0,102
+state-action-reward: red,None,None,None,forward,None,0.0,103
+state-action-reward: green,None,None,None,forward,forward,2.0,70
+state-action-reward: red,None,None,None,forward,None,0.0,104
+state-action-reward: green,None,None,None,forward,forward,2.0,71
+state-action-reward: red,None,None,None,forward,None,0.0,105
+state-action-reward: red,None,None,None,forward,None,0.0,106
+state-action-reward: red,None,None,None,forward,None,0.0,107
+state-action-reward: red,None,None,None,forward,None,0.0,108
+state-action-reward: green,None,None,None,forward,forward,2.0,72
+state-action-reward: red,None,None,None,right,right,2.0,17
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,73
+Simulator.run(): Trial 18
+Environment.reset(): Trial set up with start = (6, 4), destination = (2, 5), deadline = 25
+RoutePlanner.route_to(): destination = (2, 5)
+388.5
+state-action-reward: red,None,None,None,left,None,0.0,21
+state-action-reward: red,None,None,None,left,None,0.0,22
+state-action-reward: red,None,None,None,left,None,0.0,23
+state-action-reward: red,None,None,None,left,None,0.0,24
+state-action-reward: red,None,None,None,left,None,0.0,25
+state-action-reward: green,None,None,None,left,left,2.0,16
+state-action-reward: green,None,None,None,forward,forward,2.0,74
+state-action-reward: red,None,None,None,forward,None,0.0,109
+state-action-reward: red,None,None,None,forward,None,0.0,110
+state-action-reward: green,None,None,None,forward,forward,2.0,75
+state-action-reward: red,None,None,right,forward,None,0.0,1
+state-action-reward: red,None,None,None,forward,None,0.0,111
+state-action-reward: green,None,None,None,forward,forward,2.0,76
+state-action-reward: red,None,None,None,left,None,0.0,26
+state-action-reward: red,None,None,None,left,None,0.0,27
+state-action-reward: red,None,None,None,left,None,0.0,28
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,17
+Simulator.run(): Trial 19
+Environment.reset(): Trial set up with start = (7, 5), destination = (8, 2), deadline = 20
+RoutePlanner.route_to(): destination = (8, 2)
+408.5
+state-action-reward: green,forward,None,None,forward,right,-0.5,1
+state-action-reward: green,None,None,None,left,left,2.0,18
+state-action-reward: green,None,None,None,left,left,2.0,19
+state-action-reward: red,None,None,None,forward,None,0.0,112
+state-action-reward: red,None,None,None,forward,None,0.0,113
+state-action-reward: green,None,None,None,forward,forward,2.0,77
+state-action-reward: red,None,None,None,forward,None,0.0,114
+state-action-reward: red,None,None,None,forward,None,0.0,115
+state-action-reward: green,None,None,None,forward,forward,2.0,78
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,79
+Simulator.run(): Trial 20
+Environment.reset(): Trial set up with start = (3, 6), destination = (2, 1), deadline = 30
+RoutePlanner.route_to(): destination = (2, 1)
+428.0
+state-action-reward: red,None,None,None,left,None,0.0,29
+state-action-reward: red,None,None,None,left,None,0.0,30
+state-action-reward: red,None,None,None,left,None,0.0,31
+state-action-reward: red,None,None,None,left,None,0.0,32
+state-action-reward: green,None,None,None,left,left,2.0,20
+state-action-reward: red,None,None,None,right,right,2.0,18
+state-action-reward: green,None,None,None,forward,forward,2.0,80
+state-action-reward: green,None,None,None,forward,forward,2.0,81
+state-action-reward: red,None,None,None,forward,None,0.0,116
+state-action-reward: red,None,None,None,forward,None,0.0,117
+state-action-reward: green,None,None,None,forward,forward,2.0,82
+state-action-reward: red,None,None,None,forward,None,0.0,118
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,83
+Simulator.run(): Trial 21
+Environment.reset(): Trial set up with start = (1, 3), destination = (5, 2), deadline = 25
+RoutePlanner.route_to(): destination = (5, 2)
+450.0
+state-action-reward: green,None,None,None,forward,forward,2.0,84
+state-action-reward: red,None,None,None,forward,None,0.0,119
+state-action-reward: red,None,None,None,forward,None,0.0,120
+state-action-reward: red,None,None,None,forward,None,0.0,121
+state-action-reward: red,None,None,None,forward,None,0.0,122
+state-action-reward: green,None,None,None,forward,forward,2.0,85
+state-action-reward: green,None,None,None,forward,forward,2.0,86
+state-action-reward: red,None,None,None,forward,None,0.0,123
+state-action-reward: green,None,None,None,forward,forward,2.0,87
+state-action-reward: red,None,None,None,left,None,0.0,33
+state-action-reward: red,None,None,None,left,None,0.0,34
+state-action-reward: red,None,None,None,left,None,0.0,35
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,21
+Simulator.run(): Trial 22
+Environment.reset(): Trial set up with start = (5, 5), destination = (8, 4), deadline = 20
+RoutePlanner.route_to(): destination = (8, 4)
+470.0
+state-action-reward: red,None,None,None,right,right,2.0,19
+state-action-reward: green,None,None,None,forward,forward,2.0,88
+state-action-reward: red,None,None,None,forward,None,0.0,124
+state-action-reward: green,None,None,None,forward,forward,2.0,89
+state-action-reward: red,None,None,None,left,None,0.0,36
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,22
+Simulator.run(): Trial 23
+Environment.reset(): Trial set up with start = (6, 3), destination = (3, 6), deadline = 30
+RoutePlanner.route_to(): destination = (3, 6)
+488.0
+state-action-reward: red,None,None,None,forward,None,0.0,125
+state-action-reward: red,None,None,None,forward,None,0.0,126
+state-action-reward: red,None,None,None,forward,None,0.0,127
+state-action-reward: red,None,None,None,forward,None,0.0,128
+state-action-reward: green,None,None,None,forward,forward,2.0,90
+state-action-reward: green,None,None,None,forward,forward,2.0,91
+state-action-reward: red,None,None,None,forward,None,0.0,129
+state-action-reward: red,None,None,None,forward,None,0.0,130
+state-action-reward: green,None,None,None,forward,forward,2.0,92
+state-action-reward: red,None,None,None,left,None,0.0,37
+state-action-reward: green,None,right,None,left,right,-0.5,1
+state-action-reward: green,None,None,None,right,right,2.0,13
+state-action-reward: red,None,None,None,right,right,2.0,20
+state-action-reward: green,None,None,None,right,right,2.0,14
+state-action-reward: green,None,None,None,left,left,2.0,23
+state-action-reward: red,None,None,None,forward,None,0.0,131
+state-action-reward: red,None,None,None,forward,None,0.0,132
+state-action-reward: red,None,None,None,forward,None,0.0,133
+state-action-reward: green,None,None,None,forward,forward,2.0,93
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,94
+Simulator.run(): Trial 24
+Environment.reset(): Trial set up with start = (7, 5), destination = (4, 3), deadline = 25
+RoutePlanner.route_to(): destination = (4, 3)
+515.5
+state-action-reward: red,None,None,None,right,right,2.0,21
+state-action-reward: red,None,None,None,forward,None,0.0,134
+state-action-reward: red,None,None,None,forward,None,0.0,135
+state-action-reward: green,None,None,None,forward,forward,2.0,95
+state-action-reward: green,None,None,None,forward,forward,2.0,96
+state-action-reward: red,None,None,None,right,right,2.0,22
+state-action-reward: red,None,None,None,forward,None,0.0,136
+state-action-reward: red,None,right,None,forward,right,-0.5,1
+state-action-reward: green,None,None,None,right,right,2.0,15
+state-action-reward: green,None,None,None,right,right,2.0,16
+state-action-reward: red,None,None,None,right,right,2.0,23
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,97
+Simulator.run(): Trial 25
+Environment.reset(): Trial set up with start = (4, 1), destination = (1, 2), deadline = 20
+RoutePlanner.route_to(): destination = (1, 2)
+541.0
+state-action-reward: red,None,None,None,right,right,2.0,24
+state-action-reward: red,None,None,None,right,right,2.0,25
+state-action-reward: green,None,None,None,forward,forward,2.0,98
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,99
+Simulator.run(): Trial 26
+Environment.reset(): Trial set up with start = (7, 4), destination = (4, 3), deadline = 20
+RoutePlanner.route_to(): destination = (4, 3)
+559.0
+state-action-reward: green,None,None,None,left,left,2.0,24
+state-action-reward: green,None,None,None,forward,forward,2.0,100
+state-action-reward: red,None,None,None,forward,None,0.0,137
+state-action-reward: red,right,None,None,forward,left,-1.0,1
+state-action-reward: red,None,None,None,forward,None,0.0,138
+state-action-reward: green,None,None,None,forward,forward,2.0,101
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,right,right,2.0,17
+Simulator.run(): Trial 27
+Environment.reset(): Trial set up with start = (1, 1), destination = (5, 3), deadline = 30
+RoutePlanner.route_to(): destination = (5, 3)
+576.0
+state-action-reward: green,None,None,None,forward,forward,2.0,102
+state-action-reward: green,None,None,None,forward,forward,2.0,103
+state-action-reward: red,None,None,None,forward,None,0.0,139
+state-action-reward: red,None,right,None,forward,forward,-1.0,1
+state-action-reward: red,None,None,None,forward,None,0.0,140
+state-action-reward: green,None,None,None,forward,forward,2.0,104
+state-action-reward: green,None,None,None,forward,forward,2.0,105
+state-action-reward: red,None,None,None,right,right,2.0,26
+state-action-reward: red,None,None,None,forward,None,0.0,141
+state-action-reward: red,None,None,None,forward,None,0.0,142
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,106
+Simulator.run(): Trial 28
+Environment.reset(): Trial set up with start = (4, 4), destination = (8, 2), deadline = 30
+RoutePlanner.route_to(): destination = (8, 2)
+597.0
+state-action-reward: red,None,None,None,right,right,2.0,27
+state-action-reward: green,None,None,None,right,right,2.0,18
+state-action-reward: green,None,None,None,forward,forward,2.0,107
+state-action-reward: green,None,None,None,forward,forward,2.0,108
+state-action-reward: green,None,None,None,forward,forward,2.0,109
+state-action-reward: red,None,None,None,left,None,0.0,38
+state-action-reward: red,None,None,None,left,None,0.0,39
+state-action-reward: red,None,None,None,left,None,0.0,40
+state-action-reward: red,None,None,None,left,None,0.0,41
+state-action-reward: red,None,None,None,left,None,0.0,42
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,25
+Simulator.run(): Trial 29
+Environment.reset(): Trial set up with start = (5, 5), destination = (2, 4), deadline = 20
+RoutePlanner.route_to(): destination = (2, 4)
+619.0
+state-action-reward: red,None,None,None,left,None,0.0,43
+state-action-reward: red,None,None,None,left,None,0.0,44
+state-action-reward: red,None,None,None,left,None,0.0,45
+state-action-reward: red,None,None,None,left,None,0.0,46
+state-action-reward: green,None,None,None,left,left,2.0,26
+state-action-reward: red,None,None,None,forward,None,0.0,143
+state-action-reward: green,None,None,None,forward,forward,2.0,110
+state-action-reward: red,None,None,None,forward,None,0.0,144
+state-action-reward: red,None,None,None,forward,None,0.0,145
+state-action-reward: red,None,None,None,forward,None,0.0,146
+state-action-reward: green,None,None,None,forward,forward,2.0,111
+Environment.act(): Primary agent has reached destination!
+state-action-reward: red,None,None,None,right,right,2.0,28
+Simulator.run(): Trial 30
+Environment.reset(): Trial set up with start = (5, 5), destination = (8, 4), deadline = 20
+RoutePlanner.route_to(): destination = (8, 4)
+637.0
+state-action-reward: red,None,None,None,left,None,0.0,47
+state-action-reward: red,None,None,None,left,None,0.0,48
+state-action-reward: red,None,None,None,left,None,0.0,49
+state-action-reward: red,None,None,None,left,None,0.0,50
+state-action-reward: green,None,None,None,left,left,2.0,27
+state-action-reward: red,None,None,None,forward,None,0.0,147
+state-action-reward: green,None,None,None,forward,forward,2.0,112
+state-action-reward: red,None,None,None,forward,None,0.0,148
+state-action-reward: red,None,None,None,forward,None,0.0,149
+state-action-reward: green,None,None,None,forward,forward,2.0,113
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,28
+Simulator.run(): Trial 31
+Environment.reset(): Trial set up with start = (2, 6), destination = (5, 4), deadline = 25
+RoutePlanner.route_to(): destination = (5, 4)
+655.0
+state-action-reward: red,None,None,None,right,right,2.0,29
+state-action-reward: red,None,None,None,right,right,2.0,30
+state-action-reward: green,None,None,None,forward,forward,2.0,114
+state-action-reward: red,None,None,None,forward,None,0.0,150
+state-action-reward: red,None,None,None,forward,None,0.0,151
+state-action-reward: red,None,None,None,forward,None,0.0,152
+state-action-reward: green,None,None,None,forward,forward,2.0,115
+state-action-reward: red,None,None,None,left,None,0.0,51
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,29
+Simulator.run(): Trial 32
+Environment.reset(): Trial set up with start = (7, 4), destination = (3, 2), deadline = 30
+RoutePlanner.route_to(): destination = (3, 2)
+675.0
+state-action-reward: green,None,None,None,left,left,2.0,30
+state-action-reward: green,None,None,None,forward,forward,2.0,116
+state-action-reward: red,None,None,None,forward,None,0.0,153
+state-action-reward: red,None,None,None,forward,None,0.0,154
+state-action-reward: red,None,None,None,forward,None,0.0,155
+state-action-reward: green,None,None,None,forward,forward,2.0,117
+state-action-reward: green,None,None,None,forward,forward,2.0,118
+state-action-reward: red,None,None,None,right,right,2.0,31
+state-action-reward: red,None,None,None,forward,None,0.0,156
+state-action-reward: red,None,None,None,forward,None,0.0,157
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,119
+Simulator.run(): Trial 33
+Environment.reset(): Trial set up with start = (6, 6), destination = (2, 4), deadline = 30
+RoutePlanner.route_to(): destination = (2, 4)
+697.0
+state-action-reward: red,None,None,None,right,right,2.0,32
+state-action-reward: green,None,None,None,right,right,2.0,19
+state-action-reward: red,None,None,None,forward,None,0.0,158
+state-action-reward: red,None,None,None,forward,None,0.0,159
+state-action-reward: red,None,None,None,forward,None,0.0,160
+state-action-reward: green,None,None,None,forward,forward,2.0,120
+state-action-reward: red,None,None,None,forward,None,0.0,161
+state-action-reward: red,None,None,None,forward,None,0.0,162
+state-action-reward: red,None,None,None,forward,None,0.0,163
+state-action-reward: green,None,None,None,forward,forward,2.0,121
+state-action-reward: green,None,None,None,forward,forward,2.0,122
+state-action-reward: red,None,None,None,left,None,0.0,52
+state-action-reward: red,None,None,None,left,None,0.0,53
+state-action-reward: red,None,None,None,left,None,0.0,54
+state-action-reward: red,None,None,None,left,None,0.0,55
+state-action-reward: green,None,None,None,left,left,2.0,31
+state-action-reward: red,None,None,None,forward,None,0.0,164
+state-action-reward: red,None,None,None,forward,None,0.0,165
+state-action-reward: green,None,None,None,forward,forward,2.0,123
+state-action-reward: red,None,None,None,forward,None,0.0,166
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,124
+Simulator.run(): Trial 34
+Environment.reset(): Trial set up with start = (4, 6), destination = (1, 2), deadline = 35
+RoutePlanner.route_to(): destination = (1, 2)
+723.0
+state-action-reward: red,None,None,None,left,None,0.0,56
+state-action-reward: red,None,None,None,left,None,0.0,57
+state-action-reward: red,None,None,None,left,None,0.0,58
+state-action-reward: red,None,None,None,left,None,0.0,59
+state-action-reward: red,None,None,None,left,None,0.0,60
+state-action-reward: green,None,None,None,left,left,2.0,32
+state-action-reward: green,None,None,None,forward,forward,2.0,125
+state-action-reward: red,None,None,None,forward,None,0.0,167
+state-action-reward: red,None,None,None,forward,None,0.0,168
+state-action-reward: red,None,None,None,forward,None,0.0,169
+state-action-reward: green,None,None,None,forward,forward,2.0,126
+state-action-reward: green,None,None,None,right,right,2.0,20
+state-action-reward: green,None,None,None,forward,forward,2.0,127
+state-action-reward: green,None,None,None,forward,forward,2.0,128
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,129
+Simulator.run(): Trial 35
+Environment.reset(): Trial set up with start = (1, 1), destination = (6, 6), deadline = 50
+RoutePlanner.route_to(): destination = (6, 6)
+747.0
+state-action-reward: red,None,None,None,forward,None,0.0,170
+state-action-reward: red,None,None,None,forward,None,0.0,171
+state-action-reward: red,None,None,None,forward,None,0.0,172
+state-action-reward: red,None,None,None,forward,None,0.0,173
+state-action-reward: red,None,None,None,forward,None,0.0,174
+state-action-reward: green,None,None,None,forward,forward,2.0,130
+state-action-reward: green,None,None,None,forward,forward,2.0,131
+state-action-reward: red,None,None,None,forward,None,0.0,175
+state-action-reward: red,None,None,None,forward,None,0.0,176
+state-action-reward: red,None,None,None,forward,None,0.0,177
+state-action-reward: green,None,None,None,forward,forward,2.0,132
+state-action-reward: green,None,None,None,forward,forward,2.0,133
+state-action-reward: red,None,None,None,forward,None,0.0,178
+state-action-reward: red,None,None,None,forward,None,0.0,179
+state-action-reward: red,None,None,None,forward,None,0.0,180
+state-action-reward: green,None,None,None,forward,forward,2.0,134
+state-action-reward: red,None,None,None,right,right,2.0,33
+state-action-reward: red,None,None,None,forward,None,0.0,181
+state-action-reward: red,None,None,None,forward,None,0.0,182
+state-action-reward: red,None,None,None,forward,None,0.0,183
+state-action-reward: green,None,None,None,forward,forward,2.0,135
+state-action-reward: green,None,None,None,forward,forward,2.0,136
+state-action-reward: red,None,None,None,forward,None,0.0,184
+state-action-reward: red,None,None,None,forward,None,0.0,185
+state-action-reward: red,None,None,None,forward,None,0.0,186
+state-action-reward: green,None,None,None,forward,forward,2.0,137
+state-action-reward: red,None,None,None,forward,None,0.0,187
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,138
+Simulator.run(): Trial 36
+Environment.reset(): Trial set up with start = (4, 4), destination = (7, 2), deadline = 25
+RoutePlanner.route_to(): destination = (7, 2)
+777.0
+state-action-reward: green,None,None,None,right,right,2.0,21
+state-action-reward: green,None,forward,None,right,forward,-0.5,1
+state-action-reward: green,None,None,None,right,right,2.0,22
+state-action-reward: red,None,None,None,forward,None,0.0,188
+state-action-reward: red,None,None,None,forward,None,0.0,189
+state-action-reward: green,None,None,None,forward,forward,2.0,139
+state-action-reward: red,None,None,None,forward,None,0.0,190
+state-action-reward: red,None,None,None,forward,None,0.0,191
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,140
+Simulator.run(): Trial 37
+Environment.reset(): Trial set up with start = (2, 4), destination = (6, 1), deadline = 35
+RoutePlanner.route_to(): destination = (6, 1)
+794.5
+state-action-reward: green,None,None,None,forward,forward,2.0,141
+state-action-reward: red,None,None,None,forward,None,0.0,192
+state-action-reward: red,None,None,None,forward,None,0.0,193
+state-action-reward: green,None,None,None,forward,forward,2.0,142
+state-action-reward: red,None,None,None,forward,None,0.0,194
+state-action-reward: red,None,None,None,forward,None,0.0,195
+state-action-reward: green,None,None,None,forward,forward,2.0,143
+state-action-reward: green,None,None,None,forward,forward,2.0,144
+state-action-reward: red,None,None,None,left,None,0.0,61
+state-action-reward: red,None,None,None,left,None,0.0,62
+state-action-reward: green,None,left,None,left,None,0.0,1
+state-action-reward: green,None,None,None,left,left,2.0,33
+state-action-reward: green,None,None,None,forward,forward,2.0,145
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,146
+Simulator.run(): Trial 38
+Environment.reset(): Trial set up with start = (1, 5), destination = (7, 2), deadline = 45
+RoutePlanner.route_to(): destination = (7, 2)
+818.5
+state-action-reward: red,None,None,None,right,right,2.0,34
+state-action-reward: green,None,None,None,forward,forward,2.0,147
+state-action-reward: red,None,None,None,forward,None,0.0,196
+state-action-reward: red,None,None,None,forward,None,0.0,197
+state-action-reward: red,None,None,None,forward,None,0.0,198
+state-action-reward: green,None,None,None,forward,forward,2.0,148
+state-action-reward: green,None,None,None,forward,forward,2.0,149
+state-action-reward: green,None,None,None,forward,forward,2.0,150
+state-action-reward: red,None,None,None,forward,None,0.0,199
+state-action-reward: green,None,right,None,forward,forward,2.0,1
+state-action-reward: red,None,None,None,left,None,0.0,63
+state-action-reward: red,None,None,None,left,None,0.0,64
+state-action-reward: green,None,None,None,left,left,2.0,34
+state-action-reward: green,forward,None,None,forward,forward,2.0,1
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,151
+Simulator.run(): Trial 39
+Environment.reset(): Trial set up with start = (7, 4), destination = (2, 5), deadline = 30
+RoutePlanner.route_to(): destination = (2, 5)
+846.5
+state-action-reward: red,None,None,None,right,right,2.0,35
+state-action-reward: red,None,None,None,right,right,2.0,36
+state-action-reward: red,None,None,None,forward,None,0.0,200
+state-action-reward: green,None,None,None,forward,forward,2.0,152
+state-action-reward: red,None,None,None,forward,None,0.0,201
+state-action-reward: red,None,None,None,forward,None,0.0,202
+state-action-reward: red,None,None,None,forward,None,0.0,203
+state-action-reward: red,None,None,None,forward,None,0.0,204
+state-action-reward: green,None,None,None,forward,forward,2.0,153
+state-action-reward: red,None,None,None,forward,None,0.0,205
+state-action-reward: red,None,None,None,forward,None,0.0,206
+state-action-reward: red,None,None,None,forward,None,0.0,207
+state-action-reward: green,None,None,None,forward,forward,2.0,154
+state-action-reward: red,None,None,None,forward,None,0.0,208
+state-action-reward: red,None,None,None,forward,None,0.0,209
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,155
+Simulator.run(): Trial 40
+Environment.reset(): Trial set up with start = (5, 2), destination = (8, 4), deadline = 25
+RoutePlanner.route_to(): destination = (8, 4)
+868.5
+state-action-reward: red,None,None,None,right,right,2.0,37
+state-action-reward: red,None,None,None,right,right,2.0,38
+state-action-reward: green,None,None,None,forward,forward,2.0,156
+state-action-reward: red,None,None,None,forward,None,0.0,210
+state-action-reward: red,None,None,None,forward,None,0.0,211
+state-action-reward: red,None,None,None,forward,None,0.0,212
+state-action-reward: green,None,None,None,forward,forward,2.0,157
+state-action-reward: red,None,None,None,right,right,2.0,39
+state-action-reward: green,None,None,None,forward,forward,2.0,158
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,159
+Simulator.run(): Trial 41
+Environment.reset(): Trial set up with start = (4, 3), destination = (8, 1), deadline = 30
+RoutePlanner.route_to(): destination = (8, 1)
+892.5
+state-action-reward: green,None,None,None,right,right,2.0,23
+state-action-reward: red,None,None,None,right,right,2.0,40
+state-action-reward: green,None,None,None,forward,forward,2.0,160
+state-action-reward: red,None,None,None,forward,None,0.0,213
+state-action-reward: green,None,None,None,forward,forward,2.0,161
+state-action-reward: green,None,None,None,forward,forward,2.0,162
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,35
+Simulator.run(): Trial 42
+Environment.reset(): Trial set up with start = (4, 2), destination = (2, 4), deadline = 20
+RoutePlanner.route_to(): destination = (2, 4)
+914.5
+state-action-reward: green,None,None,None,left,left,2.0,36
+state-action-reward: red,None,None,None,forward,None,0.0,214
+state-action-reward: red,None,None,None,forward,None,0.0,215
+state-action-reward: red,None,None,None,forward,None,0.0,216
+state-action-reward: red,None,None,None,forward,None,0.0,217
+state-action-reward: green,None,None,None,forward,forward,2.0,163
+state-action-reward: green,None,None,None,left,left,2.0,37
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,164
+Simulator.run(): Trial 43
+Environment.reset(): Trial set up with start = (8, 5), destination = (3, 6), deadline = 30
+RoutePlanner.route_to(): destination = (3, 6)
+932.5
+state-action-reward: green,None,None,None,left,left,2.0,38
+state-action-reward: green,None,None,None,forward,forward,2.0,165
+state-action-reward: red,None,None,None,forward,None,0.0,218
+state-action-reward: green,None,None,None,forward,forward,2.0,166
+state-action-reward: green,None,None,None,forward,forward,2.0,167
+state-action-reward: red,None,None,None,forward,None,0.0,219
+state-action-reward: green,None,None,None,forward,forward,2.0,168
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,39
+Simulator.run(): Trial 44
+Environment.reset(): Trial set up with start = (5, 1), destination = (4, 4), deadline = 20
+RoutePlanner.route_to(): destination = (4, 4)
+954.5
+state-action-reward: red,None,None,None,right,right,2.0,41
+state-action-reward: green,None,None,None,left,left,2.0,40
+state-action-reward: green,None,None,None,forward,forward,2.0,169
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,170
+Simulator.run(): Trial 45
+Environment.reset(): Trial set up with start = (4, 1), destination = (5, 6), deadline = 30
+RoutePlanner.route_to(): destination = (5, 6)
+972.5
+state-action-reward: green,None,None,None,right,right,2.0,24
+state-action-reward: green,None,None,None,right,right,2.0,25
+state-action-reward: green,None,None,None,forward,forward,2.0,171
+state-action-reward: green,None,None,None,forward,forward,2.0,172
+state-action-reward: red,None,None,None,forward,None,0.0,220
+state-action-reward: green,None,None,None,forward,forward,2.0,173
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,174
+Simulator.run(): Trial 46
+Environment.reset(): Trial set up with start = (1, 2), destination = (1, 6), deadline = 20
+RoutePlanner.route_to(): destination = (1, 6)
+994.5
+state-action-reward: red,None,right,None,forward,None,0.0,1
+state-action-reward: red,None,None,None,forward,None,0.0,221
+state-action-reward: red,None,None,None,forward,None,0.0,222
+state-action-reward: red,None,None,None,forward,None,0.0,223
+state-action-reward: green,None,None,None,forward,forward,2.0,175
+state-action-reward: green,None,None,None,forward,forward,2.0,176
+state-action-reward: green,None,None,None,forward,forward,2.0,177
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,178
+Simulator.run(): Trial 47
+Environment.reset(): Trial set up with start = (8, 2), destination = (4, 2), deadline = 20
+RoutePlanner.route_to(): destination = (4, 2)
+1012.5
+state-action-reward: red,None,None,None,right,right,2.0,42
+state-action-reward: green,None,None,None,forward,forward,2.0,179
+state-action-reward: green,None,None,None,forward,forward,2.0,180
+state-action-reward: red,None,None,None,forward,None,0.0,224
+state-action-reward: red,None,None,None,forward,None,0.0,225
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,181
+Simulator.run(): Trial 48
+Environment.reset(): Trial set up with start = (6, 6), destination = (3, 5), deadline = 20
+RoutePlanner.route_to(): destination = (3, 5)
+1030.5
+state-action-reward: red,None,None,None,left,None,0.0,65
+state-action-reward: red,None,None,None,left,None,0.0,66
+state-action-reward: red,None,None,None,left,None,0.0,67
+state-action-reward: green,None,None,None,left,left,2.0,41
+state-action-reward: green,None,None,None,forward,forward,2.0,182
+state-action-reward: red,None,None,None,forward,None,0.0,226
+state-action-reward: red,None,None,None,forward,None,0.0,227
+state-action-reward: red,None,None,None,forward,None,0.0,228
+state-action-reward: red,None,None,None,forward,None,0.0,229
+state-action-reward: red,None,None,None,forward,None,0.0,230
+state-action-reward: green,None,None,None,forward,forward,2.0,183
+Environment.act(): Primary agent has reached destination!
+state-action-reward: red,None,None,None,right,right,2.0,43
+Simulator.run(): Trial 49
+Environment.reset(): Trial set up with start = (2, 3), destination = (8, 2), deadline = 35
+RoutePlanner.route_to(): destination = (8, 2)
+1048.5
+state-action-reward: green,None,None,None,right,right,2.0,26
+state-action-reward: red,None,None,None,forward,None,0.0,231
+state-action-reward: red,None,None,None,forward,None,0.0,232
+state-action-reward: red,None,None,None,forward,None,0.0,233
+state-action-reward: red,None,None,None,forward,None,0.0,234
+state-action-reward: green,None,None,None,forward,forward,2.0,184
+state-action-reward: red,None,None,None,forward,None,0.0,235
+state-action-reward: red,None,None,None,forward,None,0.0,236
+state-action-reward: green,None,None,None,forward,forward,2.0,185
+state-action-reward: red,None,None,None,forward,None,0.0,237
+state-action-reward: red,forward,None,None,forward,forward,-1.0,1
+state-action-reward: red,None,None,None,forward,None,0.0,238
+state-action-reward: green,None,None,None,forward,forward,2.0,186
+state-action-reward: green,None,None,None,forward,forward,2.0,187
+state-action-reward: red,None,None,None,forward,None,0.0,239
+state-action-reward: red,None,None,None,forward,None,0.0,240
+state-action-reward: green,None,None,None,forward,forward,2.0,188
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,42
+Simulator.run(): Trial 50
+Environment.reset(): Trial set up with start = (1, 4), destination = (7, 6), deadline = 40
+RoutePlanner.route_to(): destination = (7, 6)
+1071.5
+state-action-reward: green,None,None,None,forward,forward,2.0,189
+state-action-reward: red,None,None,None,forward,None,0.0,241
+state-action-reward: red,None,None,None,forward,None,0.0,242
+state-action-reward: red,None,None,None,forward,None,0.0,243
+state-action-reward: green,None,None,None,forward,forward,2.0,190
+state-action-reward: green,None,None,None,forward,forward,2.0,191
+state-action-reward: green,None,None,None,forward,forward,2.0,192
+state-action-reward: red,None,None,None,forward,None,0.0,244
+state-action-reward: red,None,None,None,forward,None,0.0,245
+state-action-reward: red,None,None,None,forward,None,0.0,246
+state-action-reward: green,None,None,None,forward,forward,2.0,193
+state-action-reward: red,None,None,None,forward,None,0.0,247
+state-action-reward: red,None,None,None,forward,None,0.0,248
+state-action-reward: red,None,None,None,forward,None,0.0,249
+state-action-reward: red,None,None,None,forward,None,0.0,250
+state-action-reward: green,None,None,None,forward,forward,2.0,194
+state-action-reward: red,None,None,None,right,right,2.0,44
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,195
+Simulator.run(): Trial 51
+Environment.reset(): Trial set up with start = (1, 6), destination = (6, 5), deadline = 30
+RoutePlanner.route_to(): destination = (6, 5)
+1097.5
+state-action-reward: red,None,None,None,left,None,0.0,68
+state-action-reward: red,None,None,None,left,None,0.0,69
+state-action-reward: red,None,None,None,left,None,0.0,70
+state-action-reward: red,None,None,None,left,None,0.0,71
+state-action-reward: red,None,None,None,left,None,0.0,72
+state-action-reward: green,None,None,None,left,left,2.0,43
+state-action-reward: red,None,None,None,forward,None,0.0,251
+state-action-reward: red,None,None,None,forward,None,0.0,252
+state-action-reward: red,None,None,None,forward,None,0.0,253
+state-action-reward: red,None,None,None,forward,None,0.0,254
+state-action-reward: green,None,None,None,forward,forward,2.0,196
+state-action-reward: red,None,None,None,forward,None,0.0,255
+state-action-reward: green,None,None,None,forward,forward,2.0,197
+state-action-reward: green,None,None,None,forward,forward,2.0,198
+state-action-reward: green,None,None,None,forward,forward,2.0,199
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,44
+Simulator.run(): Trial 52
+Environment.reset(): Trial set up with start = (1, 3), destination = (3, 1), deadline = 20
+RoutePlanner.route_to(): destination = (3, 1)
+1119.5
+state-action-reward: green,None,None,None,right,right,2.0,27
+state-action-reward: green,None,None,None,forward,forward,2.0,200
+state-action-reward: green,None,None,None,left,left,2.0,45
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,201
+Simulator.run(): Trial 53
+Environment.reset(): Trial set up with start = (3, 5), destination = (5, 1), deadline = 30
+RoutePlanner.route_to(): destination = (5, 1)
+1137.5
+state-action-reward: green,None,None,None,forward,forward,2.0,202
+state-action-reward: red,None,None,None,forward,None,0.0,256
+state-action-reward: red,None,None,None,forward,None,0.0,257
+state-action-reward: green,None,None,None,forward,forward,2.0,203
+state-action-reward: red,None,None,None,left,None,0.0,73
+state-action-reward: red,None,None,None,left,None,0.0,74
+state-action-reward: red,None,None,None,left,None,0.0,75
+state-action-reward: red,None,None,None,left,None,0.0,76
+state-action-reward: green,None,None,None,left,left,2.0,46
+state-action-reward: green,None,None,forward,forward,left,-0.5,1
+state-action-reward: green,None,None,None,right,right,2.0,28
+state-action-reward: green,None,None,None,right,right,2.0,29
+state-action-reward: green,None,None,None,left,left,2.0,47
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,204
+Simulator.run(): Trial 54
+Environment.reset(): Trial set up with start = (6, 5), destination = (2, 1), deadline = 40
+RoutePlanner.route_to(): destination = (2, 1)
+1161.0
+state-action-reward: red,None,None,None,left,None,0.0,77
+state-action-reward: red,None,None,None,left,None,0.0,78
+state-action-reward: red,None,None,None,left,None,0.0,79
+state-action-reward: green,None,None,None,left,left,2.0,48
+state-action-reward: green,None,None,None,forward,forward,2.0,205
+state-action-reward: green,None,None,None,forward,forward,2.0,206
+state-action-reward: red,None,None,None,forward,None,0.0,258
+state-action-reward: red,None,None,None,forward,None,0.0,259
+state-action-reward: red,None,None,None,forward,None,0.0,260
+state-action-reward: red,None,None,None,forward,None,0.0,261
+state-action-reward: green,None,None,None,forward,forward,2.0,207
+state-action-reward: green,None,None,None,right,right,2.0,30
+state-action-reward: red,None,None,None,forward,None,0.0,262
+state-action-reward: red,None,None,None,forward,None,0.0,263
+state-action-reward: red,None,None,None,forward,None,0.0,264
+state-action-reward: red,None,None,None,forward,None,0.0,265
+state-action-reward: green,None,None,None,forward,forward,2.0,208
+state-action-reward: green,None,None,None,forward,forward,2.0,209
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,210
+Simulator.run(): Trial 55
+Environment.reset(): Trial set up with start = (4, 4), destination = (1, 3), deadline = 20
+RoutePlanner.route_to(): destination = (1, 3)
+1187.0
+state-action-reward: red,None,None,None,right,right,2.0,45
+state-action-reward: green,None,None,None,right,right,2.0,31
+state-action-reward: red,None,None,None,forward,None,0.0,266
+state-action-reward: red,None,None,None,forward,None,0.0,267
+state-action-reward: red,None,None,None,forward,None,0.0,268
+state-action-reward: green,None,None,None,forward,forward,2.0,211
+state-action-reward: red,None,None,None,forward,None,0.0,269
+state-action-reward: red,None,None,None,forward,None,0.0,270
+state-action-reward: red,None,None,None,forward,None,0.0,271
+state-action-reward: green,None,None,None,forward,forward,2.0,212
+state-action-reward: green,None,None,None,right,right,2.0,32
+state-action-reward: red,None,None,None,forward,None,0.0,272
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,213
+Simulator.run(): Trial 56
+Environment.reset(): Trial set up with start = (4, 6), destination = (2, 3), deadline = 25
+RoutePlanner.route_to(): destination = (2, 3)
+1209.0
+state-action-reward: red,None,None,None,right,right,2.0,46
+state-action-reward: green,None,None,None,forward,forward,2.0,214
+state-action-reward: green,None,None,None,right,right,2.0,33
+state-action-reward: red,None,None,None,forward,None,0.0,273
+state-action-reward: red,None,None,None,forward,None,0.0,274
+state-action-reward: red,None,None,None,forward,None,0.0,275
+state-action-reward: green,None,None,None,forward,forward,2.0,215
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,216
+Simulator.run(): Trial 57
+Environment.reset(): Trial set up with start = (2, 2), destination = (2, 6), deadline = 20
+RoutePlanner.route_to(): destination = (2, 6)
+1229.0
+state-action-reward: green,None,None,None,forward,forward,2.0,217
+state-action-reward: red,None,None,None,forward,None,0.0,276
+state-action-reward: red,None,None,None,forward,None,0.0,277
+state-action-reward: red,None,None,None,forward,None,0.0,278
+state-action-reward: red,None,None,None,forward,None,0.0,279
+state-action-reward: green,None,None,None,forward,forward,2.0,218
+state-action-reward: red,None,None,None,forward,None,0.0,280
+state-action-reward: red,None,None,None,forward,None,0.0,281
+state-action-reward: green,None,None,None,forward,forward,2.0,219
+state-action-reward: red,None,None,None,forward,None,0.0,282
+state-action-reward: red,None,None,None,forward,None,0.0,283
+state-action-reward: red,None,None,None,forward,None,0.0,284
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,220
+Simulator.run(): Trial 58
+Environment.reset(): Trial set up with start = (6, 4), destination = (1, 3), deadline = 30
+RoutePlanner.route_to(): destination = (1, 3)
+1247.0
+state-action-reward: red,None,None,None,right,right,2.0,47
+state-action-reward: red,None,None,None,right,right,2.0,48
+state-action-reward: green,None,None,None,forward,forward,2.0,221
+state-action-reward: green,None,None,None,forward,forward,2.0,222
+state-action-reward: green,forward,None,None,forward,None,0.0,1
+state-action-reward: red,None,None,None,forward,None,0.0,285
+state-action-reward: red,None,None,None,forward,None,0.0,286
+state-action-reward: red,None,None,None,forward,None,0.0,287
+state-action-reward: red,None,None,None,forward,None,0.0,288
+state-action-reward: red,None,None,None,forward,None,0.0,289
+state-action-reward: green,None,None,None,forward,forward,2.0,223
+state-action-reward: green,None,None,right,forward,forward,2.0,1
+state-action-reward: green,None,None,None,right,right,2.0,34
+state-action-reward: red,None,None,None,forward,None,0.0,290
+state-action-reward: red,None,None,None,forward,None,0.0,291
+state-action-reward: red,None,None,None,forward,None,0.0,292
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,224
+Simulator.run(): Trial 59
+Environment.reset(): Trial set up with start = (3, 6), destination = (7, 6), deadline = 20
+RoutePlanner.route_to(): destination = (7, 6)
+1273.0
+state-action-reward: red,None,None,None,left,None,0.0,80
+state-action-reward: red,None,None,None,left,None,0.0,81
+state-action-reward: red,None,None,None,left,None,0.0,82
+state-action-reward: red,None,None,None,left,None,0.0,83
+state-action-reward: green,None,None,None,left,left,2.0,49
+state-action-reward: red,None,None,None,forward,None,0.0,293
+state-action-reward: red,None,None,None,forward,None,0.0,294
+state-action-reward: red,None,None,None,forward,None,0.0,295
+state-action-reward: red,None,None,None,forward,None,0.0,296
+state-action-reward: red,None,None,None,forward,None,0.0,297
+state-action-reward: green,None,None,None,forward,forward,2.0,225
+state-action-reward: green,None,None,right,forward,right,-0.5,1
+state-action-reward: green,None,None,None,left,left,2.0,50
+state-action-reward: green,None,None,None,forward,forward,2.0,226
+state-action-reward: red,left,None,None,right,left,-1.0,1
+state-action-reward: green,left,None,None,right,None,0.0,1
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,left,None,None,right,left,-0.5,1
+Simulator.run(): Trial 60
+Environment.reset(): Trial set up with start = (8, 2), destination = (3, 3), deadline = 30
+RoutePlanner.route_to(): destination = (3, 3)
+1289.0
+state-action-reward: red,None,None,None,right,right,2.0,49
+state-action-reward: green,None,None,None,forward,forward,2.0,227
+state-action-reward: green,None,None,None,forward,forward,2.0,228
+state-action-reward: red,None,None,None,forward,None,0.0,298
+state-action-reward: red,None,None,None,forward,None,0.0,299
+state-action-reward: green,None,None,None,forward,forward,2.0,229
+state-action-reward: green,None,None,None,forward,forward,2.0,230
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,51
+Simulator.run(): Trial 61
+Environment.reset(): Trial set up with start = (2, 4), destination = (7, 1), deadline = 40
+RoutePlanner.route_to(): destination = (7, 1)
+1311.0
+state-action-reward: red,None,None,None,right,right,2.0,50
+state-action-reward: green,None,None,None,right,right,2.0,35
+state-action-reward: red,None,None,None,forward,None,0.0,300
+state-action-reward: red,None,None,None,forward,None,0.0,301
+state-action-reward: red,None,forward,None,forward,forward,-1.0,1
+state-action-reward: green,None,None,None,forward,forward,2.0,231
+state-action-reward: red,None,None,None,forward,None,0.0,302
+state-action-reward: red,None,None,None,forward,None,0.0,303
+state-action-reward: green,None,None,None,forward,forward,2.0,232
+state-action-reward: red,None,None,None,forward,None,0.0,304
+state-action-reward: red,None,None,None,forward,None,0.0,305
+state-action-reward: red,None,None,None,forward,None,0.0,306
+state-action-reward: green,None,None,None,forward,forward,2.0,233
+state-action-reward: green,None,None,None,forward,forward,2.0,234
+state-action-reward: red,None,None,None,left,None,0.0,84
+state-action-reward: red,None,None,None,left,None,0.0,85
+state-action-reward: green,None,None,None,left,left,2.0,52
+state-action-reward: red,None,None,None,forward,None,0.0,307
+state-action-reward: red,None,None,None,forward,None,0.0,308
+state-action-reward: red,None,None,None,forward,None,0.0,309
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,235
+Simulator.run(): Trial 62
+Environment.reset(): Trial set up with start = (8, 6), destination = (3, 4), deadline = 35
+RoutePlanner.route_to(): destination = (3, 4)
+1336.0
+state-action-reward: red,None,None,None,right,right,2.0,51
+state-action-reward: red,None,None,None,forward,None,0.0,310
+state-action-reward: red,None,None,None,forward,None,0.0,311
+state-action-reward: red,None,None,None,forward,None,0.0,312
+state-action-reward: green,None,None,None,forward,forward,2.0,236
+state-action-reward: green,None,None,None,forward,forward,2.0,237
+state-action-reward: green,None,None,None,forward,forward,2.0,238
+state-action-reward: red,None,None,None,forward,None,0.0,313
+state-action-reward: red,None,None,None,forward,None,0.0,314
+state-action-reward: red,None,None,None,forward,None,0.0,315
+state-action-reward: green,None,None,None,forward,forward,2.0,239
+state-action-reward: green,forward,None,None,right,forward,-0.5,1
+state-action-reward: green,None,None,None,right,right,2.0,36
+state-action-reward: green,None,None,None,right,right,2.0,37
+state-action-reward: red,None,None,None,left,None,0.0,86
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,53
+Simulator.run(): Trial 63
+Environment.reset(): Trial set up with start = (3, 5), destination = (8, 2), deadline = 40
+RoutePlanner.route_to(): destination = (8, 2)
+1361.5
+state-action-reward: green,None,None,None,right,right,2.0,38
+state-action-reward: green,None,None,None,right,right,2.0,39
+state-action-reward: green,None,None,None,forward,forward,2.0,240
+state-action-reward: green,None,None,forward,forward,right,-0.5,1
+state-action-reward: red,None,None,None,left,None,0.0,87
+state-action-reward: red,None,None,None,left,None,0.0,88
+state-action-reward: red,None,None,None,left,None,0.0,89
+state-action-reward: red,None,None,None,left,None,0.0,90
+state-action-reward: green,None,None,None,left,left,2.0,54
+state-action-reward: green,None,None,None,forward,forward,2.0,241
+state-action-reward: red,None,None,None,forward,None,0.0,316
+state-action-reward: red,None,None,None,forward,None,0.0,317
+state-action-reward: green,None,None,None,forward,forward,2.0,242
+state-action-reward: green,None,None,None,left,left,2.0,55
+state-action-reward: green,None,None,None,forward,forward,2.0,243
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,244
+Simulator.run(): Trial 64
+Environment.reset(): Trial set up with start = (6, 3), destination = (3, 1), deadline = 25
+RoutePlanner.route_to(): destination = (3, 1)
+1389.0
+state-action-reward: red,None,None,None,left,None,0.0,91
+state-action-reward: red,None,None,None,left,None,0.0,92
+state-action-reward: red,None,None,None,left,None,0.0,93
+state-action-reward: red,None,None,None,left,None,0.0,94
+state-action-reward: green,None,None,None,left,left,2.0,56
+state-action-reward: red,None,None,None,forward,None,0.0,318
+state-action-reward: green,None,None,None,forward,forward,2.0,245
+state-action-reward: green,None,None,None,forward,forward,2.0,246
+state-action-reward: green,None,None,None,right,right,2.0,40
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,247
+Simulator.run(): Trial 65
+Environment.reset(): Trial set up with start = (5, 2), destination = (4, 5), deadline = 20
+RoutePlanner.route_to(): destination = (4, 5)
+1409.0
+state-action-reward: green,None,None,None,left,left,2.0,57
+state-action-reward: red,None,None,None,left,None,0.0,95
+state-action-reward: red,None,None,None,left,None,0.0,96
+state-action-reward: red,None,None,None,left,None,0.0,97
+state-action-reward: green,None,right,None,left,left,-1.0,1
+state-action-reward: green,None,None,None,left,left,2.0,58
+state-action-reward: red,None,None,None,forward,None,0.0,319
+state-action-reward: red,None,None,None,forward,None,0.0,320
+state-action-reward: green,None,None,None,forward,forward,2.0,248
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,249
+Simulator.run(): Trial 66
+Environment.reset(): Trial set up with start = (5, 2), destination = (2, 1), deadline = 20
+RoutePlanner.route_to(): destination = (2, 1)
+1426.0
+state-action-reward: red,None,None,None,left,None,0.0,98
+state-action-reward: red,None,None,None,left,None,0.0,99
+state-action-reward: red,None,None,None,left,None,0.0,100
+state-action-reward: red,None,None,None,left,None,0.0,101
+state-action-reward: red,None,None,None,left,None,0.0,102
+state-action-reward: green,None,None,None,left,left,2.0,59
+state-action-reward: green,None,None,None,forward,forward,2.0,250
+state-action-reward: red,None,None,None,forward,None,0.0,321
+state-action-reward: red,None,None,None,forward,None,0.0,322
+state-action-reward: red,None,None,None,forward,None,0.0,323
+state-action-reward: green,None,None,None,forward,forward,2.0,251
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,right,right,2.0,41
+Simulator.run(): Trial 67
+Environment.reset(): Trial set up with start = (7, 3), destination = (4, 1), deadline = 25
+RoutePlanner.route_to(): destination = (4, 1)
+1444.0
+state-action-reward: red,None,None,None,right,right,2.0,52
+state-action-reward: green,None,None,None,right,right,2.0,42
+state-action-reward: green,None,None,None,forward,forward,2.0,252
+state-action-reward: red,None,None,None,forward,None,0.0,324
+state-action-reward: red,None,None,None,forward,None,0.0,325
+state-action-reward: green,None,None,None,forward,forward,2.0,253
+state-action-reward: green,None,None,None,right,right,2.0,43
+state-action-reward: red,None,None,None,forward,None,0.0,326
+state-action-reward: green,None,None,None,forward,forward,2.0,254
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,255
+Simulator.run(): Trial 68
+Environment.reset(): Trial set up with start = (7, 4), destination = (2, 6), deadline = 35
+RoutePlanner.route_to(): destination = (2, 6)
+1468.0
+state-action-reward: red,None,None,None,left,None,0.0,103
+state-action-reward: red,None,None,None,left,None,0.0,104
+state-action-reward: red,None,None,None,left,None,0.0,105
+state-action-reward: red,None,None,None,left,None,0.0,106
+state-action-reward: red,None,None,forward,left,left,-1.0,1
+state-action-reward: green,None,None,forward,left,left,2.0,1
+state-action-reward: green,None,None,None,forward,forward,2.0,256
+state-action-reward: red,None,None,None,forward,None,0.0,327
+state-action-reward: red,None,None,None,forward,None,0.0,328
+state-action-reward: red,None,None,None,forward,None,0.0,329
+state-action-reward: green,None,None,None,forward,forward,2.0,257
+state-action-reward: green,None,None,None,forward,forward,2.0,258
+state-action-reward: green,None,None,None,forward,forward,2.0,259
+state-action-reward: red,None,None,None,left,None,0.0,107
+state-action-reward: red,None,None,None,left,None,0.0,108
+state-action-reward: red,None,None,None,left,None,0.0,109
+state-action-reward: green,None,None,None,left,left,2.0,60
+state-action-reward: red,None,None,None,forward,None,0.0,330
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,260
+Simulator.run(): Trial 69
+Environment.reset(): Trial set up with start = (3, 2), destination = (7, 5), deadline = 35
+RoutePlanner.route_to(): destination = (7, 5)
+1491.0
+state-action-reward: red,None,None,None,left,None,0.0,110
+state-action-reward: red,None,None,None,left,None,0.0,111
+state-action-reward: red,None,None,None,left,None,0.0,112
+state-action-reward: red,None,None,None,left,None,0.0,113
+state-action-reward: red,None,None,None,left,None,0.0,114
+state-action-reward: green,None,None,None,left,left,2.0,61
+state-action-reward: green,None,None,None,forward,forward,2.0,261
+state-action-reward: red,None,None,None,forward,None,0.0,331
+state-action-reward: red,None,None,None,forward,None,0.0,332
+state-action-reward: red,None,None,None,forward,None,0.0,333
+state-action-reward: green,None,None,None,forward,forward,2.0,262
+state-action-reward: green,None,None,None,forward,forward,2.0,263
+state-action-reward: red,None,None,None,right,right,2.0,53
+state-action-reward: red,None,None,None,forward,None,0.0,334
+state-action-reward: red,None,None,None,forward,None,0.0,335
+state-action-reward: red,None,None,None,forward,None,0.0,336
+state-action-reward: green,None,None,None,forward,forward,2.0,264
+state-action-reward: red,None,None,None,forward,None,0.0,337
+state-action-reward: red,None,None,None,forward,None,0.0,338
+state-action-reward: red,None,None,None,forward,None,0.0,339
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,265
+Simulator.run(): Trial 70
+Environment.reset(): Trial set up with start = (6, 1), destination = (7, 6), deadline = 30
+RoutePlanner.route_to(): destination = (7, 6)
+1515.0
+state-action-reward: red,None,None,None,right,right,2.0,54
+state-action-reward: green,None,None,None,right,right,2.0,44
+state-action-reward: green,None,None,left,forward,right,-0.5,1
+state-action-reward: red,None,None,None,right,right,2.0,55
+state-action-reward: green,None,None,None,right,right,2.0,45
+state-action-reward: red,None,None,forward,right,forward,-1.0,1
+state-action-reward: green,None,None,forward,right,None,0.0,1
+state-action-reward: green,None,None,forward,right,right,2.0,1
+state-action-reward: red,None,None,None,forward,None,0.0,340
+state-action-reward: red,None,None,None,forward,None,0.0,341
+state-action-reward: green,None,None,None,forward,forward,2.0,266
+state-action-reward: red,None,None,None,forward,None,0.0,342
+state-action-reward: green,None,None,None,forward,forward,2.0,267
+state-action-reward: green,None,None,None,forward,forward,2.0,268
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,269
+Simulator.run(): Trial 71
+Environment.reset(): Trial set up with start = (5, 1), destination = (1, 6), deadline = 45
+RoutePlanner.route_to(): destination = (1, 6)
+1541.5
+state-action-reward: green,None,None,None,left,left,2.0,62
+state-action-reward: red,None,None,None,forward,None,0.0,343
+state-action-reward: red,None,None,None,forward,None,0.0,344
+state-action-reward: green,None,None,None,forward,forward,2.0,270
+state-action-reward: green,None,None,None,forward,forward,2.0,271
+state-action-reward: green,None,None,None,forward,forward,2.0,272
+state-action-reward: green,None,None,None,left,left,2.0,63
+state-action-reward: red,None,None,None,forward,None,0.0,345
+state-action-reward: green,None,None,None,forward,forward,2.0,273
+state-action-reward: green,None,None,None,forward,forward,2.0,274
+state-action-reward: green,None,None,None,forward,forward,2.0,275
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,276
+Simulator.run(): Trial 72
+Environment.reset(): Trial set up with start = (1, 2), destination = (8, 3), deadline = 40
+RoutePlanner.route_to(): destination = (8, 3)
+1569.5
+state-action-reward: green,None,None,None,left,left,2.0,64
+state-action-reward: green,None,None,None,forward,forward,2.0,277
+state-action-reward: green,None,None,None,forward,forward,2.0,278
+state-action-reward: red,None,None,None,forward,None,0.0,346
+state-action-reward: green,None,None,None,forward,forward,2.0,279
+state-action-reward: red,None,left,None,forward,None,0.0,1
+state-action-reward: red,None,left,None,forward,forward,-1.0,1
+state-action-reward: red,None,left,None,forward,right,-0.5,1
+state-action-reward: green,None,None,None,left,left,2.0,65
+state-action-reward: green,None,None,None,forward,forward,2.0,280
+state-action-reward: red,None,None,None,forward,None,0.0,347
+state-action-reward: red,None,None,None,forward,None,0.0,348
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,281
+Simulator.run(): Trial 73
+Environment.reset(): Trial set up with start = (4, 1), destination = (2, 3), deadline = 20
+RoutePlanner.route_to(): destination = (2, 3)
+1592.0
+state-action-reward: green,None,None,None,forward,forward,2.0,282
+state-action-reward: green,None,None,None,forward,forward,2.0,283
+state-action-reward: red,None,None,None,left,None,0.0,115
+state-action-reward: red,None,None,None,left,None,0.0,116
+state-action-reward: red,None,None,None,left,None,0.0,117
+state-action-reward: green,None,None,None,left,left,2.0,66
+state-action-reward: red,None,None,None,forward,None,0.0,349
+state-action-reward: red,None,None,None,forward,None,0.0,350
+state-action-reward: red,None,None,None,forward,None,0.0,351
+state-action-reward: green,right,None,None,forward,left,-0.5,1
+state-action-reward: green,None,None,None,right,right,2.0,46
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,right,right,2.0,47
+Simulator.run(): Trial 74
+Environment.reset(): Trial set up with start = (2, 6), destination = (5, 3), deadline = 30
+RoutePlanner.route_to(): destination = (5, 3)
+1611.5
+state-action-reward: red,None,None,None,left,None,0.0,118
+state-action-reward: red,None,None,None,left,None,0.0,119
+state-action-reward: red,None,None,None,left,None,0.0,120
+state-action-reward: red,None,None,None,left,None,0.0,121
+state-action-reward: red,None,None,None,left,None,0.0,122
+state-action-reward: green,None,None,None,left,left,2.0,67
+state-action-reward: green,None,None,None,forward,forward,2.0,284
+state-action-reward: red,None,None,None,forward,None,0.0,352
+state-action-reward: red,None,None,None,forward,None,0.0,353
+state-action-reward: red,None,None,None,forward,None,0.0,354
+state-action-reward: green,None,None,None,forward,forward,2.0,285
+state-action-reward: red,None,None,None,left,None,0.0,123
+state-action-reward: green,None,None,None,left,left,2.0,68
+state-action-reward: red,None,None,None,forward,None,0.0,355
+state-action-reward: red,None,None,None,forward,None,0.0,356
+state-action-reward: red,None,None,None,forward,None,0.0,357
+state-action-reward: green,None,None,None,forward,forward,2.0,286
+state-action-reward: red,None,None,None,forward,None,0.0,358
+state-action-reward: red,None,None,None,forward,None,0.0,359
+state-action-reward: red,None,None,None,forward,None,0.0,360
+state-action-reward: green,None,None,right,forward,left,-0.5,1
+state-action-reward: green,None,None,None,right,right,2.0,48
+state-action-reward: green,None,None,right,right,forward,-0.5,1
+state-action-reward: green,None,None,None,right,right,2.0,49
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,right,right,2.0,50
+Simulator.run(): Trial 75
+Environment.reset(): Trial set up with start = (3, 1), destination = (4, 4), deadline = 20
+RoutePlanner.route_to(): destination = (4, 4)
+1636.5
+state-action-reward: green,None,None,None,right,right,2.0,51
+state-action-reward: green,None,None,None,right,right,2.0,52
+state-action-reward: green,None,None,None,left,left,2.0,69
+state-action-reward: red,None,None,None,forward,None,0.0,361
+state-action-reward: red,None,None,None,forward,None,0.0,362
+state-action-reward: red,None,None,None,forward,None,0.0,363
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,287
+Simulator.run(): Trial 76
+Environment.reset(): Trial set up with start = (3, 2), destination = (7, 5), deadline = 35
+RoutePlanner.route_to(): destination = (7, 5)
+1654.5
+state-action-reward: red,None,None,None,right,right,2.0,56
+state-action-reward: green,None,None,forward,right,left,-0.5,1
+state-action-reward: green,None,None,None,right,right,2.0,53
+state-action-reward: green,None,None,None,right,right,2.0,54
+state-action-reward: red,None,None,None,forward,None,0.0,364
+state-action-reward: red,None,None,None,forward,None,0.0,365
+state-action-reward: red,None,None,None,forward,None,0.0,366
+state-action-reward: red,None,None,None,forward,None,0.0,367
+state-action-reward: green,None,None,None,forward,forward,2.0,288
+state-action-reward: green,None,None,None,forward,forward,2.0,289
+state-action-reward: red,None,None,None,forward,None,0.0,368
+state-action-reward: red,None,None,None,forward,None,0.0,369
+state-action-reward: green,None,None,None,forward,forward,2.0,290
+state-action-reward: red,None,None,None,forward,None,0.0,370
+state-action-reward: red,None,None,None,forward,None,0.0,371
+state-action-reward: green,None,None,None,forward,forward,2.0,291
+state-action-reward: red,None,None,None,left,None,0.0,124
+state-action-reward: red,None,None,None,left,None,0.0,125
+state-action-reward: red,None,None,None,left,None,0.0,126
+state-action-reward: red,None,None,None,left,None,0.0,127
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,70
+Simulator.run(): Trial 77
+Environment.reset(): Trial set up with start = (7, 5), destination = (7, 1), deadline = 20
+RoutePlanner.route_to(): destination = (7, 1)
+1680.0
+state-action-reward: red,None,None,None,left,None,0.0,128
+state-action-reward: red,None,None,None,left,None,0.0,129
+state-action-reward: red,None,None,None,left,None,0.0,130
+state-action-reward: green,None,None,None,left,left,2.0,71
+state-action-reward: red,None,None,None,forward,None,0.0,372
+state-action-reward: green,None,None,None,forward,forward,2.0,292
+state-action-reward: green,None,None,None,forward,forward,2.0,293
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,294
+Simulator.run(): Trial 78
+Environment.reset(): Trial set up with start = (1, 1), destination = (5, 1), deadline = 20
+RoutePlanner.route_to(): destination = (5, 1)
+1698.0
+state-action-reward: green,None,None,None,left,left,2.0,72
+state-action-reward: red,None,None,None,forward,None,0.0,373
+state-action-reward: red,None,None,None,forward,None,0.0,374
+state-action-reward: red,None,None,None,forward,None,0.0,375
+state-action-reward: red,None,None,None,forward,None,0.0,376
+state-action-reward: green,None,None,None,forward,forward,2.0,295
+state-action-reward: red,None,None,None,forward,None,0.0,377
+state-action-reward: red,None,None,None,forward,None,0.0,378
+state-action-reward: red,None,None,None,forward,None,0.0,379
+state-action-reward: red,None,None,None,forward,None,0.0,380
+state-action-reward: green,None,None,None,forward,forward,2.0,296
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,297
+Simulator.run(): Trial 79
+Environment.reset(): Trial set up with start = (6, 2), destination = (2, 1), deadline = 25
+RoutePlanner.route_to(): destination = (2, 1)
+1716.0
+state-action-reward: green,None,None,None,forward,forward,2.0,298
+state-action-reward: green,None,None,None,forward,forward,2.0,299
+state-action-reward: red,None,None,None,forward,None,0.0,381
+state-action-reward: red,None,None,None,forward,None,0.0,382
+state-action-reward: green,None,None,None,forward,forward,2.0,300
+state-action-reward: red,None,None,None,forward,None,0.0,383
+state-action-reward: red,None,None,None,forward,None,0.0,384
+state-action-reward: red,None,None,None,forward,None,0.0,385
+state-action-reward: red,None,None,None,forward,None,0.0,386
+state-action-reward: red,None,None,None,forward,None,0.0,387
+state-action-reward: green,None,None,None,forward,forward,2.0,301
+Environment.act(): Primary agent has reached destination!
+state-action-reward: red,None,None,None,right,right,2.0,57
+Simulator.run(): Trial 80
+Environment.reset(): Trial set up with start = (7, 6), destination = (3, 2), deadline = 40
+RoutePlanner.route_to(): destination = (3, 2)
+1736.0
+state-action-reward: green,None,None,None,right,right,2.0,55
+state-action-reward: red,None,None,None,forward,None,0.0,388
+state-action-reward: red,None,None,None,forward,None,0.0,389
+state-action-reward: green,None,None,None,forward,forward,2.0,302
+state-action-reward: red,None,None,None,forward,None,0.0,390
+state-action-reward: red,None,None,None,forward,None,0.0,391
+state-action-reward: green,None,None,None,forward,forward,2.0,303
+state-action-reward: red,None,None,None,forward,None,0.0,392
+state-action-reward: red,None,None,None,forward,None,0.0,393
+state-action-reward: red,None,None,None,forward,None,0.0,394
+state-action-reward: green,None,None,None,forward,forward,2.0,304
+state-action-reward: green,None,None,None,right,right,2.0,56
+state-action-reward: green,None,None,None,forward,forward,2.0,305
+state-action-reward: red,None,None,None,forward,None,0.0,395
+state-action-reward: red,None,None,None,forward,None,0.0,396
+state-action-reward: green,None,None,None,forward,forward,2.0,306
+state-action-reward: red,None,None,None,forward,None,0.0,397
+state-action-reward: red,None,None,None,forward,None,0.0,398
+state-action-reward: red,None,None,None,forward,None,0.0,399
+state-action-reward: red,None,None,None,forward,None,0.0,400
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,307
+Simulator.run(): Trial 81
+Environment.reset(): Trial set up with start = (1, 3), destination = (6, 3), deadline = 25
+RoutePlanner.route_to(): destination = (6, 3)
+1762.0
+state-action-reward: red,None,None,None,right,right,2.0,58
+state-action-reward: red,None,None,None,forward,None,0.0,401
+state-action-reward: red,None,None,None,forward,None,0.0,402
+state-action-reward: red,left,None,None,forward,right,-0.5,1
+state-action-reward: red,None,None,None,left,None,0.0,131
+state-action-reward: red,None,None,None,left,None,0.0,132
+state-action-reward: red,None,None,None,left,None,0.0,133
+state-action-reward: red,None,None,None,left,None,0.0,134
+state-action-reward: green,None,None,None,left,left,2.0,73
+state-action-reward: red,None,None,None,forward,None,0.0,403
+state-action-reward: red,None,None,None,forward,None,0.0,404
+state-action-reward: red,None,None,None,forward,None,0.0,405
+state-action-reward: green,None,None,None,forward,forward,2.0,308
+state-action-reward: red,None,None,None,forward,None,0.0,406
+state-action-reward: red,None,None,None,forward,None,0.0,407
+state-action-reward: green,None,None,None,forward,forward,2.0,309
+state-action-reward: green,None,None,None,forward,forward,2.0,310
+state-action-reward: red,None,None,None,left,None,0.0,135
+state-action-reward: red,None,None,None,left,None,0.0,136
+state-action-reward: red,None,None,None,left,None,0.0,137
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,74
+Simulator.run(): Trial 82
+Environment.reset(): Trial set up with start = (2, 6), destination = (7, 5), deadline = 30
+RoutePlanner.route_to(): destination = (7, 5)
+1783.5
+state-action-reward: green,None,None,None,forward,forward,2.0,311
+state-action-reward: green,None,None,None,forward,forward,2.0,312
+state-action-reward: green,None,None,None,forward,forward,2.0,313
+state-action-reward: red,None,None,None,forward,None,0.0,408
+state-action-reward: red,None,None,None,forward,None,0.0,409
+state-action-reward: red,None,None,None,forward,None,0.0,410
+state-action-reward: green,None,None,None,forward,forward,2.0,314
+state-action-reward: red,None,None,None,forward,None,0.0,411
+state-action-reward: red,None,None,None,forward,None,0.0,412
+state-action-reward: green,None,None,None,forward,forward,2.0,315
+state-action-reward: red,None,None,None,left,None,0.0,138
+state-action-reward: red,None,None,None,left,None,0.0,139
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,75
+Simulator.run(): Trial 83
+Environment.reset(): Trial set up with start = (4, 6), destination = (6, 1), deadline = 35
+RoutePlanner.route_to(): destination = (6, 1)
+1805.5
+state-action-reward: green,None,None,None,forward,forward,2.0,316
+state-action-reward: green,None,None,None,forward,forward,2.0,317
+state-action-reward: red,None,None,None,left,None,0.0,140
+state-action-reward: green,None,None,None,left,left,2.0,76
+state-action-reward: green,right,None,None,forward,None,0.0,1
+state-action-reward: green,None,None,None,forward,forward,2.0,318
+state-action-reward: green,None,None,None,forward,forward,2.0,319
+state-action-reward: red,None,None,None,forward,None,0.0,413
+state-action-reward: green,None,None,None,forward,forward,2.0,320
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,321
+Simulator.run(): Trial 84
+Environment.reset(): Trial set up with start = (2, 6), destination = (2, 2), deadline = 20
+RoutePlanner.route_to(): destination = (2, 2)
+1829.5
+state-action-reward: green,None,None,None,forward,forward,2.0,322
+state-action-reward: red,None,None,None,forward,None,0.0,414
+state-action-reward: red,None,None,None,forward,None,0.0,415
+state-action-reward: green,None,None,None,forward,forward,2.0,323
+state-action-reward: red,None,None,None,forward,None,0.0,416
+state-action-reward: red,None,None,None,forward,None,0.0,417
+state-action-reward: red,None,None,None,forward,None,0.0,418
+state-action-reward: red,None,None,None,forward,None,0.0,419
+state-action-reward: green,None,None,None,forward,forward,2.0,324
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,325
+Simulator.run(): Trial 85
+Environment.reset(): Trial set up with start = (2, 2), destination = (6, 1), deadline = 25
+RoutePlanner.route_to(): destination = (6, 1)
+1847.5
+state-action-reward: red,None,None,None,forward,None,0.0,420
+state-action-reward: red,None,None,None,forward,None,0.0,421
+state-action-reward: red,None,None,None,forward,None,0.0,422
+state-action-reward: green,None,None,None,forward,forward,2.0,326
+state-action-reward: green,None,None,None,forward,forward,2.0,327
+state-action-reward: red,None,None,None,forward,None,0.0,423
+state-action-reward: red,None,None,None,forward,None,0.0,424
+state-action-reward: red,None,None,None,forward,None,0.0,425
+state-action-reward: green,None,None,None,forward,forward,2.0,328
+state-action-reward: red,None,None,None,forward,None,0.0,426
+state-action-reward: green,None,None,None,forward,forward,2.0,329
+state-action-reward: red,None,None,None,left,None,0.0,141
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,77
+Simulator.run(): Trial 86
+Environment.reset(): Trial set up with start = (7, 3), destination = (2, 5), deadline = 35
+RoutePlanner.route_to(): destination = (2, 5)
+1867.5
+state-action-reward: green,None,None,None,right,right,2.0,57
+state-action-reward: green,None,None,None,forward,forward,2.0,330
+state-action-reward: green,forward,None,None,forward,left,-0.5,1
+state-action-reward: green,None,None,None,right,right,2.0,58
+state-action-reward: green,None,None,None,forward,forward,2.0,331
+state-action-reward: red,None,None,None,forward,None,0.0,427
+state-action-reward: green,None,None,None,forward,forward,2.0,332
+state-action-reward: red,None,None,None,left,None,0.0,142
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,78
+Simulator.run(): Trial 87
+Environment.reset(): Trial set up with start = (6, 5), destination = (1, 2), deadline = 40
+RoutePlanner.route_to(): destination = (1, 2)
+1889.0
+state-action-reward: green,None,None,None,forward,forward,2.0,333
+state-action-reward: green,None,None,None,forward,forward,2.0,334
+state-action-reward: red,None,None,None,forward,None,0.0,428
+state-action-reward: green,None,None,None,forward,forward,2.0,335
+state-action-reward: green,None,None,None,forward,forward,2.0,336
+state-action-reward: green,None,None,None,forward,forward,2.0,337
+state-action-reward: green,None,left,None,right,forward,-0.5,1
+state-action-reward: red,None,None,None,forward,None,0.0,429
+state-action-reward: red,None,None,None,forward,None,0.0,430
+state-action-reward: red,None,None,None,forward,None,0.0,431
+state-action-reward: green,None,None,None,forward,forward,2.0,338
+state-action-reward: green,None,None,None,forward,forward,2.0,339
+state-action-reward: green,None,None,None,forward,forward,2.0,340
+state-action-reward: red,None,None,None,forward,None,0.0,432
+state-action-reward: red,None,None,None,forward,None,0.0,433
+state-action-reward: red,None,None,None,forward,None,0.0,434
+state-action-reward: green,None,None,None,forward,forward,2.0,341
+state-action-reward: green,None,None,None,forward,forward,2.0,342
+state-action-reward: red,None,None,None,forward,None,0.0,435
+state-action-reward: red,None,None,None,forward,None,0.0,436
+state-action-reward: green,None,None,None,forward,forward,2.0,343
+state-action-reward: green,None,None,None,forward,forward,2.0,344
+state-action-reward: green,None,None,None,right,right,2.0,59
+state-action-reward: red,None,None,None,forward,None,0.0,437
+state-action-reward: green,None,None,None,forward,forward,2.0,345
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,346
+Simulator.run(): Trial 88
+Environment.reset(): Trial set up with start = (2, 4), destination = (7, 3), deadline = 30
+RoutePlanner.route_to(): destination = (7, 3)
+1928.5
+state-action-reward: red,None,None,None,left,None,0.0,143
+state-action-reward: red,None,None,None,left,None,0.0,144
+state-action-reward: red,None,None,None,left,None,0.0,145
+state-action-reward: red,None,None,None,left,None,0.0,146
+state-action-reward: green,None,None,None,left,left,2.0,79
+state-action-reward: red,None,None,None,forward,None,0.0,438
+state-action-reward: green,None,None,None,forward,forward,2.0,347
+state-action-reward: red,None,None,None,forward,None,0.0,439
+state-action-reward: red,None,None,None,forward,None,0.0,440
+state-action-reward: green,None,None,None,forward,forward,2.0,348
+state-action-reward: red,None,None,None,forward,None,0.0,441
+state-action-reward: red,None,None,None,forward,None,0.0,442
+state-action-reward: red,None,None,None,forward,None,0.0,443
+state-action-reward: red,None,None,None,forward,None,0.0,444
+state-action-reward: red,None,None,None,forward,None,0.0,445
+state-action-reward: green,None,None,None,forward,forward,2.0,349
+state-action-reward: red,None,None,None,forward,None,0.0,446
+state-action-reward: red,None,None,None,forward,None,0.0,447
+state-action-reward: red,None,None,None,forward,None,0.0,448
+state-action-reward: red,None,None,None,forward,None,0.0,449
+state-action-reward: green,left,None,None,forward,forward,2.0,1
+state-action-reward: red,None,None,None,left,None,0.0,147
+state-action-reward: red,None,None,None,left,None,0.0,148
+state-action-reward: red,None,None,None,left,None,0.0,149
+state-action-reward: red,None,None,None,left,None,0.0,150
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,80
+Simulator.run(): Trial 89
+Environment.reset(): Trial set up with start = (4, 2), destination = (8, 1), deadline = 25
+RoutePlanner.route_to(): destination = (8, 1)
+1950.5
+state-action-reward: red,None,None,None,forward,None,0.0,450
+state-action-reward: red,None,None,None,forward,None,0.0,451
+state-action-reward: red,None,None,None,forward,None,0.0,452
+state-action-reward: red,None,None,None,forward,None,0.0,453
+state-action-reward: green,None,None,None,forward,forward,2.0,350
+state-action-reward: green,None,None,None,forward,forward,2.0,351
+state-action-reward: red,None,None,None,forward,None,0.0,454
+state-action-reward: red,None,left,None,forward,left,-1.0,1
+state-action-reward: green,None,left,None,forward,forward,2.0,1
+state-action-reward: red,None,None,None,forward,None,0.0,455
+state-action-reward: green,None,None,None,forward,forward,2.0,352
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,81
+Simulator.run(): Trial 90
+Environment.reset(): Trial set up with start = (7, 2), destination = (4, 1), deadline = 20
+RoutePlanner.route_to(): destination = (4, 1)
+1969.5
+state-action-reward: red,None,None,None,left,None,0.0,151
+state-action-reward: red,None,None,None,left,None,0.0,152
+state-action-reward: red,None,None,None,left,None,0.0,153
+state-action-reward: red,None,None,None,left,None,0.0,154
+state-action-reward: red,None,None,None,left,None,0.0,155
+state-action-reward: green,None,None,None,left,left,2.0,82
+state-action-reward: red,None,None,None,forward,None,0.0,456
+state-action-reward: red,None,None,None,forward,None,0.0,457
+state-action-reward: green,None,None,None,forward,forward,2.0,353
+state-action-reward: green,None,None,None,forward,forward,2.0,354
+Environment.act(): Primary agent has reached destination!
+state-action-reward: red,None,None,None,right,right,2.0,59
+Simulator.run(): Trial 91
+Environment.reset(): Trial set up with start = (1, 4), destination = (4, 6), deadline = 25
+RoutePlanner.route_to(): destination = (4, 6)
+1987.5
+state-action-reward: green,None,None,None,left,left,2.0,83
+state-action-reward: green,None,None,None,forward,forward,2.0,355
+state-action-reward: green,None,None,None,forward,forward,2.0,356
+state-action-reward: green,None,None,None,right,right,2.0,60
+state-action-reward: red,None,None,None,forward,None,0.0,458
+state-action-reward: red,None,None,None,forward,None,0.0,459
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,357
+Simulator.run(): Trial 92
+Environment.reset(): Trial set up with start = (2, 3), destination = (5, 5), deadline = 25
+RoutePlanner.route_to(): destination = (5, 5)
+2007.5
+state-action-reward: red,None,None,None,forward,None,0.0,460
+state-action-reward: red,None,None,None,forward,None,0.0,461
+state-action-reward: red,None,None,None,forward,None,0.0,462
+state-action-reward: red,None,None,None,forward,None,0.0,463
+state-action-reward: red,None,left,None,forward,None,0.0,2
+state-action-reward: green,None,left,None,forward,None,0.0,1
+state-action-reward: green,None,left,None,forward,left,-0.5,1
+state-action-reward: green,None,None,None,right,right,2.0,61
+state-action-reward: red,None,None,None,forward,None,0.0,464
+state-action-reward: red,None,None,None,forward,None,0.0,465
+state-action-reward: green,None,None,None,forward,forward,2.0,358
+state-action-reward: green,None,None,None,forward,forward,2.0,359
+state-action-reward: green,None,None,None,right,right,2.0,62
+state-action-reward: red,None,None,None,forward,None,0.0,466
+state-action-reward: red,None,None,None,forward,None,0.0,467
+state-action-reward: green,None,None,None,forward,forward,2.0,360
+state-action-reward: red,None,None,None,forward,None,0.0,468
+state-action-reward: red,None,None,None,forward,None,0.0,469
+state-action-reward: red,None,None,None,forward,None,0.0,470
+state-action-reward: red,None,None,None,forward,None,0.0,471
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,361
+Simulator.run(): Trial 93
+Environment.reset(): Trial set up with start = (3, 4), destination = (6, 5), deadline = 20
+RoutePlanner.route_to(): destination = (6, 5)
+2029.0
+state-action-reward: red,None,None,None,left,None,0.0,156
+state-action-reward: red,None,None,None,left,None,0.0,157
+state-action-reward: red,None,None,None,left,None,0.0,158
+state-action-reward: green,None,None,None,left,left,2.0,84
+state-action-reward: green,None,None,None,forward,forward,2.0,362
+state-action-reward: green,None,None,None,forward,forward,2.0,363
+Environment.act(): Primary agent has reached destination!
+state-action-reward: red,None,None,None,right,right,2.0,60
+Simulator.run(): Trial 94
+Environment.reset(): Trial set up with start = (5, 1), destination = (1, 1), deadline = 20
+RoutePlanner.route_to(): destination = (1, 1)
+2047.0
+state-action-reward: red,None,None,None,right,right,2.0,61
+state-action-reward: red,None,None,None,forward,None,0.0,472
+state-action-reward: red,None,None,None,forward,None,0.0,473
+state-action-reward: green,None,None,None,forward,forward,2.0,364
+state-action-reward: red,None,None,None,forward,None,0.0,474
+state-action-reward: green,right,None,None,forward,right,-0.5,1
+state-action-reward: red,None,None,None,left,None,0.0,159
+state-action-reward: red,None,None,None,left,None,0.0,160
+state-action-reward: green,None,None,None,left,left,2.0,85
+state-action-reward: green,None,None,None,forward,forward,2.0,365
+state-action-reward: red,None,None,None,right,right,2.0,62
+state-action-reward: red,None,None,None,forward,None,0.0,475
+state-action-reward: green,None,None,None,forward,forward,2.0,366
+state-action-reward: green,None,None,None,forward,forward,2.0,367
+state-action-reward: green,None,None,None,forward,forward,2.0,368
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,forward,None,None,forward,forward,2.0,2
+Simulator.run(): Trial 95
+Environment.reset(): Trial set up with start = (6, 1), destination = (2, 5), deadline = 40
+RoutePlanner.route_to(): destination = (2, 5)
+2074.5
+state-action-reward: red,None,None,None,forward,None,0.0,476
+state-action-reward: red,None,None,None,forward,None,0.0,477
+state-action-reward: red,None,None,None,forward,None,0.0,478
+state-action-reward: red,None,None,None,forward,None,0.0,479
+state-action-reward: green,None,None,None,forward,forward,2.0,369
+state-action-reward: green,None,None,None,forward,forward,2.0,370
+state-action-reward: green,None,None,forward,forward,forward,2.0,1
+state-action-reward: red,None,None,None,forward,None,0.0,480
+state-action-reward: red,None,None,None,forward,None,0.0,481
+state-action-reward: red,None,None,None,forward,None,0.0,482
+state-action-reward: green,None,None,None,forward,forward,2.0,371
+state-action-reward: red,None,None,None,left,None,0.0,161
+state-action-reward: red,None,None,None,left,None,0.0,162
+state-action-reward: red,None,None,None,left,None,0.0,163
+state-action-reward: red,None,None,None,left,None,0.0,164
+state-action-reward: green,None,None,None,left,left,2.0,86
+state-action-reward: green,None,None,None,forward,forward,2.0,372
+state-action-reward: red,None,None,None,forward,None,0.0,483
+state-action-reward: red,None,None,None,forward,None,0.0,484
+state-action-reward: red,None,None,None,forward,None,0.0,485
+state-action-reward: green,None,None,None,forward,forward,2.0,373
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,374
+Simulator.run(): Trial 96
+Environment.reset(): Trial set up with start = (6, 5), destination = (2, 2), deadline = 35
+RoutePlanner.route_to(): destination = (2, 2)
+2100.5
+state-action-reward: green,None,None,None,forward,forward,2.0,375
+state-action-reward: red,None,None,None,forward,None,0.0,486
+state-action-reward: red,None,None,None,forward,None,0.0,487
+state-action-reward: red,None,None,None,forward,None,0.0,488
+state-action-reward: green,None,None,None,forward,forward,2.0,376
+state-action-reward: green,None,None,None,forward,forward,2.0,377
+state-action-reward: green,None,None,None,forward,forward,2.0,378
+state-action-reward: red,None,None,None,right,right,2.0,63
+state-action-reward: green,None,None,None,forward,forward,2.0,379
+state-action-reward: red,None,None,None,forward,None,0.0,489
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,380
+Simulator.run(): Trial 97
+Environment.reset(): Trial set up with start = (4, 4), destination = (3, 1), deadline = 20
+RoutePlanner.route_to(): destination = (3, 1)
+2124.5
+state-action-reward: red,None,None,None,left,None,0.0,165
+state-action-reward: red,None,None,None,left,None,0.0,166
+state-action-reward: red,None,None,None,left,None,0.0,167
+state-action-reward: green,None,None,None,left,left,2.0,87
+state-action-reward: green,None,None,None,right,right,2.0,63
+state-action-reward: red,None,None,None,forward,None,0.0,490
+state-action-reward: red,None,None,None,forward,None,0.0,491
+state-action-reward: red,None,None,None,forward,None,0.0,492
+state-action-reward: red,None,None,None,forward,None,0.0,493
+state-action-reward: red,None,None,None,forward,None,0.0,494
+state-action-reward: green,None,None,None,forward,forward,2.0,381
+state-action-reward: red,None,None,None,forward,None,0.0,495
+state-action-reward: red,None,None,None,forward,None,0.0,496
+state-action-reward: red,None,None,None,forward,None,0.0,497
+state-action-reward: red,None,None,None,forward,None,0.0,498
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,382
+Simulator.run(): Trial 98
+Environment.reset(): Trial set up with start = (6, 2), destination = (3, 3), deadline = 20
+RoutePlanner.route_to(): destination = (3, 3)
+2142.5
+state-action-reward: green,None,None,None,forward,forward,2.0,383
+state-action-reward: red,None,None,None,forward,None,0.0,499
+state-action-reward: red,None,None,None,forward,None,0.0,500
+state-action-reward: red,None,None,None,forward,None,0.0,501
+state-action-reward: red,None,None,None,forward,None,0.0,502
+state-action-reward: green,None,None,None,forward,forward,2.0,384
+state-action-reward: green,None,None,None,forward,forward,2.0,385
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,left,left,2.0,88
+Simulator.run(): Trial 99
+Environment.reset(): Trial set up with start = (1, 1), destination = (3, 4), deadline = 25
+RoutePlanner.route_to(): destination = (3, 4)
+2160.5
+state-action-reward: green,None,None,None,left,left,2.0,89
+state-action-reward: red,None,None,None,forward,None,0.0,503
+state-action-reward: red,None,None,None,forward,None,0.0,504
+state-action-reward: red,None,None,None,forward,None,0.0,505
+state-action-reward: red,None,None,None,forward,None,0.0,506
+state-action-reward: green,None,None,None,forward,forward,2.0,386
+state-action-reward: red,None,None,None,right,right,2.0,64
+state-action-reward: green,None,None,None,forward,forward,2.0,387
+state-action-reward: red,None,None,None,forward,None,0.0,507
+state-action-reward: red,None,None,None,forward,None,0.0,508
+Environment.act(): Primary agent has reached destination!
+state-action-reward: green,None,None,None,forward,forward,2.0,388
+Luiss-MacBook-Air:smartcab luiscastro$ 
