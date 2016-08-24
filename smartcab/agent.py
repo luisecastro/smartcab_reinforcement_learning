@@ -24,7 +24,8 @@ class LearningAgent(Agent):
         self.planner.route_to(destination)
         # TODO: Prepare for a new trip; reset any variables here, if required
         print self.total_reward                                                                                       # Print total reward until last run
-                                    
+        # for i,j in zip(self.qtable, self.action_reward):                         
+        #     print [i,j]
 
     def update(self, t):
         # Gather inputs
@@ -42,7 +43,7 @@ class LearningAgent(Agent):
             self.qtable.append(self.state)                                                                            # Adding the missing state to the qtable
             action = random.choice(Environment.valid_actions)                                                         # Since the agent hasn't been yet in this state, take random action and explore   
             self.action_reward.append({'None':[13.,0],'forward':[13.,0],'left':[13.,0],'right':[13.,0]})              # Add to the action_reward list, the agent is optimist to the unknown 
-                                                                                                                      # [13.] Optimist reward so it will be chosen later, [0] times the agent has been in this state-action, [0.] weighted reward 
+                                                                                                                      # [13.] Optimist reward so it will be chosen later, [0] times the agent has been in this state-action
         else:                                                                                                         # State is in qtable
             index = self.qtable.index(self.state)                                                                     # Find index of state in qtable
             key_holder = list()                                                                                       
@@ -64,7 +65,7 @@ class LearningAgent(Agent):
 
             action = random.choice(key_holder)                                                                        # Randomly choose, if there was only one unvisited action, or only one current state-action
         
-                                                                                                                      # maximum, it with randomly choose them with probability = 1
+                                                                                                                      # maximum, it will randomly choose them with probability = 1
         # Execute action and get reward
         if action == 'None':                                                                                          # Since None was taken from the dictionaries, change if needed for the reward function
             action = None
@@ -77,13 +78,12 @@ class LearningAgent(Agent):
                                                                                                                       # prefer them
         # TODO: Learn policy based on state, action, reward     
         self.action_reward[index][str(action)][1] += 1
-        alpha = self.action_reward[index][str(action)][1]**-1                                                          # Alpha determines how the agent upgrades the rewards it receives for states-actions
+        alpha = self.action_reward[index][str(action)][1]**-1                                                         # Alpha determines how the agent upgrades the rewards it receives for states-actions
         self.action_reward[index][str(action)][0] = (1-alpha)*self.action_reward[index][str(action)][0]+alpha*reward  # Currently Alpha = 1/# of times visited this state-action pair
 
         self.time += .01
-        self.epsilon *= 1./(1+self.time)                                                                              # Play with epsilon for best exploitation-exploration balance
+        self.epsilon *= 1./(1+(4*self.time))                                                                              # Play with epsilon for best exploitation-exploration balance
         print "state-action-reward: {},{},{},{},{},{},{},{}".format(self.state['light'],self.state['left'],self.state['oncoming'],self.state['right'],self.state['next'],action,self.action_reward[index][str(action)][0],self.action_reward[index][str(action)][1])
-
 
 
 def run():
@@ -100,6 +100,7 @@ def run():
     # NOTE: To speed up simulation, reduce update_delay and/or set display=False
 
     sim.run(n_trials=100)  # run for a specified number of trials
+
     # NOTE: To quit midway, press Esc or close pygame window, or hit Ctrl+C on the command-line
 
 
